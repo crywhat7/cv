@@ -1,0 +1,289 @@
+{
+  "basics": {
+    "name": "Milton Barrientos",
+    "label": "Desarrollador Web Fullstack con más 2 años de experiencia en desarrollo y 1 año como Ingeniero de Software",
+    "image": "/me.webp",
+    "email": "miltonbarrientos@gmail.com",
+    "phone": "+504 88285038",
+    "url": "https://midu.dev",
+    "summary": "3 años de experiencia como Desarrollador Web. Actualmente me encuentro trabajando en Allas Repuestos como Ingeniero de Software, donde he liderado el desarrollo de Proyectos para Usuarios Internos de la Empresa. He sabido que me dedicaría al rubro tecnologico desde que estaba en la cuna",
+    "location": {
+      "address": "",
+      "postalCode": "11101",
+      "city": "Tegucigalpa",
+      "countryCode": "HN",
+      "region": "Honduras"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "milton-barrientos",
+        "url": "https://www.linkedin.com/in/milton-barrientos-6130411a7/"
+      },
+      {
+        "network": "GitHub",
+        "username": "crywhat",
+        "url": "https://github.com/crywhat7"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Allas Repuestos",
+      "position": "",
+      "url": "https://allasrepuestos.store/",
+      "startDate": "2022-05-05",
+      "endDate": null,
+      "summary": "Empecé como Desarrollador Trainee con nula Experiencia, con el tiempo (y muy rápido) fui escalando posiciones hasta llegar a Ingeniero de Software. He liderado el desarrollo de Proyectos para Usuarios Internos de la Empresa. He trabajado con tecnologías como Angular, NodeJS, PostgreSQL, C#, DatawareHouse, entre otras. Me he familiarizado con la metodología SCRUM desde el primer día.",
+      "highlights": [
+        "Crecimiento rápido",
+        "Liderazgo de Proyectos",
+        "Desarrollo de Proyectos",
+        "Trabajo en Equipo"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Ceutec - Universidad Tecnológica de Honduras",
+      "url": "https://ceutec.hn/",
+      "area": "Ingeniero en Sistemas",
+      "studyType": "Ingeniería",
+      "startDate": "2021-01-01",
+      "endDate": null,
+      "score": "5.0",
+      "courses": ["C++", "Java", "PHP", "MySQL"]
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Angular",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Frontend", "UI"]
+    },
+    {
+      "name": "Astro",
+      "level": "Básico",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "React",
+      "level": "Básico",
+      "keywords": []
+    },
+    {
+      "name": "NodeJS",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "Bitbucket",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "Jira",
+      "level": "Avanzado",
+      "keywords": [
+        "Gestión de Proyectos",
+        "Gestión de Tareas",
+        "Gestión de Equipos"
+      ]
+    },
+    {
+      "name": "Confluence",
+      "level": "Avanzado",
+      "keywords": [
+        "Gestión de Proyectos",
+        "Gestión de Tareas",
+        "Gestión de Equipos"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "B1"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Ajedrez",
+      "keywords": [
+        "Estrategia",
+        "Juego de Mesa",
+        "Competición",
+        "Desarrollo Personal"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Carlos Barrientos",
+      "reference": "Auditor Interno en Santillana"
+    },
+    {
+      "name": "Fernando Quintanilla",
+      "reference": "Ingeniero de Software en Allas Repuestos"
+    },
+    {
+      "name": "Jesus Noriega",
+      "reference": "Jefe de IT en Allas Repuestos"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Base de Conocimientos - Departamento de Compras",
+      "isActive": true,
+      "description": "Lideré el desarrollo de una Base de Conocimientos para el Departamento de Compras de Allas Repuestos. La aplicación permite a los usuarios de compras visualizar la información necesaria y puntual para cada pedido de cada producto, información proveida por los Gerentes de Compras",
+      "highlights": [
+        "Liderazgo de Proyectos",
+        "Desarrollo de Proyectos",
+        "Trabajo en Equipo",
+        "En Desarrollo"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Proceso de Reclamos y Garantías",
+      "isActive": true,
+      "description": "Lideré el desarrollo de un Proceso de Reclamos y Garantías para Allas Repuestos. La aplicación tiene como objetivo llevar un control de los reclamos y garantías de los productos vendidos por la empresa. Este proyecto fue una digitalización y mejora de la forma en que se llevaba el control de los reclamos y garantías en la empresa",
+      "highlights": [
+        "Liderazgo de Proyectos",
+        "Desarrollo de Proyectos",
+        "Toma de Requerimientos"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Algoritmo de Resurtido de Tiendas",
+      "isActive": true,
+      "description": "Desarrollé un Algoritmo de Resurtido de Tiendas para Allas Repuestos. El algoritmo tiene como objetivo calcular la cantidad de productos que se deben enviar a cada tienda de Allas Repuestos, basado en la demanda de los productos en cada tienda. El algoritmo toma en cuenta la demanda de los productos en cada tienda, la cantidad de productos en cada tienda y la cantidad de productos en el almacén central de la empresa",
+      "highlights": [
+        "Desarrollo BackEnd",
+        "Comprensión de Logística",
+        "Manejo de Inventario",
+        "Manejo de Hilos en NodeJS",
+        "PostgreSQL",
+        "Automatización de Procesos"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Módulo de Compras - Nacionalización de Pedidos",
+      "isActive": true,
+      "description": "Lideré el desarrollo de un módulo para el proceso de Compras Internacionales de la Empresa, que consistía en la Nacionalización de Pedidos. La aplicación permite a los usuarios de compras realizar los pasos necesarios para nacionalizar un pedido, digitalización de documentos legales y fiscales y automatización de procesos manuales.",
+      "highlights": [
+        "Liderazgo de Proyectos",
+        "Comprensión de Procesos de Compras Internacionales"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Proceso de Consumo Interno",
+      "isActive": true,
+      "description": "Lideré y Desarrollé un Proceso de Consumo Interno para Allas Repuestos. La aplicación tiene como objetivo llevar un control de los productos que se consumen internamente en la empresa. Este proyecto fue una digitalización y mejora de la forma en que se llevaba el control de los productos que se consumen internamente en la empresa",
+      "highlights": [
+        "Liderazgo de Proyectos",
+        "Desarrollo de Proyectos",
+        "Toma de Requerimientos",
+        "Automatización de Procesos"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Rediseño de la Página Web",
+      "isActive": true,
+      "description": "Lideré el rediseño de la Página Web de Allas Repuestos. La aplicación tiene como objetivo mejorar la experiencia de usuario y la usabilidad de la página web de la empresa. Este fue un proyecto opcional que propuse y lideré, con el objetivo de mejorar la imagen de la empresa y la experiencia de usuario en la página web",
+      "highlights": ["Astro", "Páginas Estáticas", "SSR"],
+      "url": "https://allasrepuestos.store/"
+    },
+    {
+      "name": "Módulo CRM de Seguimiento de Clientes",
+      "isActive": true,
+      "description": "Participé como Desarrollador JR en la creación de un CRM para el seguimiento de clientes de Allas Repuestos. La aplicación tiene como objetivo llevar un control de los clientes de la empresa, sus pedidos, sus pagos y sus reclamos. Este proyecto fue una digitalización y mejora de la forma en que se llevaba el control de los clientes en la empresa",
+      "highlights": ["CRM", "Desarrollo FrontEnd"],
+      "url": ""
+    },
+    {
+      "name": "Entre otros...",
+      "isActive": true,
+      "description": "Actualmente llevo +30 proyectos en los que me he involucrado en la empresa",
+      "highlights": [],
+      "url": ""
+    }
+  ]
+}
