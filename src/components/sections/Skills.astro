@@ -1,34 +1,20 @@
 ---
-import Section from "../Section.astro"
+import Section from "../Section.astro";
 
-import { skills } from "@cv"
+import { skills } from "@cv";
 ---
 
 <Section title="Habilidades">
-  <ul>
+  <ul class="inline-flex gap-2 flex-wrap">
     {
-      skills.map(({ name }) => (
-        <li>
-          <span>{name}</span>
+      skills.map(({ name, image }) => (
+        <li class="rounded-md bg-gray-300 text-black font-semibold px-3 py-1 flex items-center content-start">
+          {image && (
+            <img src={image} alt={name} class="h-4 inline-block mr-1" />
+          )}
+          <span class="text-sm">{name}</span>
         </li>
       ))
     }
   </ul>
 </Section>
-
-<style>
-  ul {
-    display: inline-flex;
-    gap: 8px;
-    flex-wrap: wrap;
-  }
-
-  li {
-    border-radius: 6px;
-    background: #eee;
-    color: black;
-    font-size: 0.8rem;
-    font-weight: 500;
-    padding: 0.2rem 0.6rem;
-  }
-</style>

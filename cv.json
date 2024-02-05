@@ -5,10 +5,10 @@
     "image": "/me.webp",
     "email": "miltonbarrientos@gmail.com",
     "phone": "+504 88285038",
-    "url": "https://midu.dev",
+    "url": "https://crywhat.site/",
     "summary": "3 años de experiencia como Desarrollador Web. Actualmente me encuentro trabajando en Allas Repuestos como Ingeniero de Software, donde he liderado el desarrollo de Proyectos para Usuarios Internos de la Empresa. He sabido que me dedicaría al rubro tecnologico desde que estaba en la cuna",
     "location": {
-      "address": "",
+      "address": "https://maps.app.goo.gl/ZhXbcW6AKNwGrugKA",
       "postalCode": "11101",
       "city": "Tegucigalpa",
       "countryCode": "HN",
@@ -57,28 +57,75 @@
     }
   ],
   "awards": [],
-  "certificates": [],
+  "certificates": [
+    {
+      "name": "Angular - The Complete Guide (2024 Edition)",
+      "date": "2023-03-01",
+      "issuer": "Udemy Business",
+      "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-3f6dde7d-fbe3-48b7-bba3-dc19a45ff74c.jpg?v=1677678612000"
+    },
+    {
+      "name": "NestJS: The Complete Developer's Guide",
+      "date": "2023-07-08",
+      "issuer": "Udemy Business",
+      "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-f99765ea-1d0b-4210-9dda-303f7fb840e2.jpg?v=1688828179000"
+    },
+    {
+      "name": "Understanding TypeScript",
+      "date": "2022-10-22",
+      "issuer": "Udemy Business",
+      "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-914531bb-818a-4361-a179-f13ad8cbea13.jpg?v=1666498602000"
+    },
+    {
+      "name": "Learn SQL Using PostgreSQL: From Zero to Hero",
+      "date": "2022-09-20",
+      "issuer": "Udemy Business",
+      "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-148665fb-db08-4a3e-b711-b26f3fa4264c.jpg?v=1663729227000"
+    },
+    {
+      "name": "Complete C# Masterclass",
+      "date": "2023-11-13",
+      "issuer": "Udemy Business",
+      "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-111c9a87-090f-4c78-8e06-c514c26213db.jpg?v=1699892909000"
+    },
+    {
+      "name": "Modern JavaScript (Complete guide, from Novice to Ninja)",
+      "date": "2022-10-09",
+      "issuer": "Udemy Business",
+      "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-07e32514-6598-444c-bfc6-c4c096c8d03b.jpg?v=1665334084000"
+    },
+    {
+      "name": "Node.js, Express, MongoDB & More: The Complete Bootcamp 2024",
+      "date": "2023-01-07",
+      "issuer": "Udemy Business",
+      "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-b02a2fa0-4ff6-4116-b936-f15ee27556e2.jpg?v=1673101018000"
+    }
+  ],
   "publications": [],
   "skills": [
     {
       "name": "Angular",
       "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "UI"]
+      "keywords": ["Desarrollo Web", "Frontend", "UI"],
+      "image": "/skills-logos/angular.webp"
     },
     {
       "name": "Astro",
       "level": "Básico",
-      "keywords": ["Desarrollo Web", "Frontend"]
+      "keywords": ["Desarrollo Web", "Frontend"],
+      "image": "/skills-logos/astro.webp"
     },
     {
       "name": "React",
       "level": "Básico",
-      "keywords": []
+      "keywords": [],
+      "image": "/skills-logos/react.webp"
     },
     {
       "name": "NodeJS",
       "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"],
+      "image": "/skills-logos/nodejs.webp"
     },
     {
       "name": "PostgreSQL",
@@ -88,17 +135,20 @@
         "SQL",
         "Almacenamiento de Datos",
         "Backend"
-      ]
+      ],
+      "image": "/skills-logos/postgresql.webp"
     },
     {
       "name": "HTML",
       "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend"]
+      "keywords": ["Desarrollo Web", "Frontend"],
+      "image": "/skills-logos/html.webp"
     },
     {
       "name": "CSS",
       "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"],
+      "image": "/skills-logos/css.webp"
     },
     {
       "name": "Tailwind",
@@ -108,12 +158,14 @@
         "Frontend",
         "CSS Framework",
         "Diseño Responsive"
-      ]
+      ],
+      "image": "/skills-logos/tailwind.webp"
     },
     {
       "name": "JavaScript",
       "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"],
+      "image": "/skills-logos/js.webp"
     },
     {
       "name": "TypeScript",
@@ -123,12 +175,14 @@
         "Frontend",
         "Backend",
         "JavaScript Superset"
-      ]
+      ],
+      "image": "/skills-logos/ts.webp"
     },
     {
       "name": "Git",
       "level": "Avanzado",
-      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"],
+      "image": "/skills-logos/git.webp"
     },
     {
       "name": "GitHub",
@@ -138,7 +192,8 @@
         "Colaboración",
         "Código Fuente",
         "Git"
-      ]
+      ],
+      "image": "/skills-logos/github.webp"
     },
     {
       "name": "Bitbucket",
@@ -148,7 +203,8 @@
         "Colaboración",
         "Código Fuente",
         "Git"
-      ]
+      ],
+      "image": "/skills-logos/bitbucket.webp"
     },
     {
       "name": "Jira",
@@ -157,7 +213,8 @@
         "Gestión de Proyectos",
         "Gestión de Tareas",
         "Gestión de Equipos"
-      ]
+      ],
+      "image": "/skills-logos/jira.webp"
     },
     {
       "name": "Confluence",
@@ -166,7 +223,8 @@
         "Gestión de Proyectos",
         "Gestión de Tareas",
         "Gestión de Equipos"
-      ]
+      ],
+      "image": "/skills-logos/confluence.webp"
     }
   ],
   "languages": [
@@ -207,7 +265,7 @@
   "projects": [
     {
       "name": "Base de Conocimientos - Departamento de Compras",
-      "isActive": true,
+      "isActive": false,
       "description": "Lideré el desarrollo de una Base de Conocimientos para el Departamento de Compras de Allas Repuestos. La aplicación permite a los usuarios de compras visualizar la información necesaria y puntual para cada pedido de cada producto, información proveida por los Gerentes de Compras",
       "highlights": [
         "Liderazgo de Proyectos",
@@ -215,22 +273,22 @@
         "Trabajo en Equipo",
         "En Desarrollo"
       ],
-      "url": ""
+      "url": null
     },
     {
       "name": "Proceso de Reclamos y Garantías",
-      "isActive": true,
+      "isActive": false,
       "description": "Lideré el desarrollo de un Proceso de Reclamos y Garantías para Allas Repuestos. La aplicación tiene como objetivo llevar un control de los reclamos y garantías de los productos vendidos por la empresa. Este proyecto fue una digitalización y mejora de la forma en que se llevaba el control de los reclamos y garantías en la empresa",
       "highlights": [
         "Liderazgo de Proyectos",
         "Desarrollo de Proyectos",
         "Toma de Requerimientos"
       ],
-      "url": ""
+      "url": null
     },
     {
       "name": "Algoritmo de Resurtido de Tiendas",
-      "isActive": true,
+      "isActive": false,
       "description": "Desarrollé un Algoritmo de Resurtido de Tiendas para Allas Repuestos. El algoritmo tiene como objetivo calcular la cantidad de productos que se deben enviar a cada tienda de Allas Repuestos, basado en la demanda de los productos en cada tienda. El algoritmo toma en cuenta la demanda de los productos en cada tienda, la cantidad de productos en cada tienda y la cantidad de productos en el almacén central de la empresa",
       "highlights": [
         "Desarrollo BackEnd",
@@ -240,21 +298,21 @@
         "PostgreSQL",
         "Automatización de Procesos"
       ],
-      "url": ""
+      "url": null
     },
     {
       "name": "Módulo de Compras - Nacionalización de Pedidos",
-      "isActive": true,
+      "isActive": false,
       "description": "Lideré el desarrollo de un módulo para el proceso de Compras Internacionales de la Empresa, que consistía en la Nacionalización de Pedidos. La aplicación permite a los usuarios de compras realizar los pasos necesarios para nacionalizar un pedido, digitalización de documentos legales y fiscales y automatización de procesos manuales.",
       "highlights": [
         "Liderazgo de Proyectos",
         "Comprensión de Procesos de Compras Internacionales"
       ],
-      "url": ""
+      "url": null
     },
     {
       "name": "Proceso de Consumo Interno",
-      "isActive": true,
+      "isActive": false,
       "description": "Lideré y Desarrollé un Proceso de Consumo Interno para Allas Repuestos. La aplicación tiene como objetivo llevar un control de los productos que se consumen internamente en la empresa. Este proyecto fue una digitalización y mejora de la forma en que se llevaba el control de los productos que se consumen internamente en la empresa",
       "highlights": [
         "Liderazgo de Proyectos",
@@ -262,7 +320,7 @@
         "Toma de Requerimientos",
         "Automatización de Procesos"
       ],
-      "url": ""
+      "url": null
     },
     {
       "name": "Rediseño de la Página Web",
@@ -273,17 +331,24 @@
     },
     {
       "name": "Módulo CRM de Seguimiento de Clientes",
-      "isActive": true,
+      "isActive": false,
       "description": "Participé como Desarrollador JR en la creación de un CRM para el seguimiento de clientes de Allas Repuestos. La aplicación tiene como objetivo llevar un control de los clientes de la empresa, sus pedidos, sus pagos y sus reclamos. Este proyecto fue una digitalización y mejora de la forma en que se llevaba el control de los clientes en la empresa",
       "highlights": ["CRM", "Desarrollo FrontEnd"],
-      "url": ""
+      "url": null
+    },
+    {
+      "name": "Tableros de MCIs y MPs para el Departamento de Ventas",
+      "isActive": false,
+      "description": "Lideré y Participé en el desarrollo de Tableros de MCIs (Metas Crucialmente Importantes) y MPs (Medidas de Predicción) para el Departamento de Ventas de Allas Repuestos. Los tableros tienen como objetivo llevar un control de las metas y las medidas de predicción del departamento de ventas de la empresa.",
+      "highlights": ["Looker Studio", "DataWareHouse"],
+      "url": null
     },
     {
       "name": "Entre otros...",
-      "isActive": true,
+      "isActive": false,
       "description": "Actualmente llevo +30 proyectos en los que me he involucrado en la empresa",
       "highlights": [],
-      "url": ""
+      "url": null
     }
   ]
 }
