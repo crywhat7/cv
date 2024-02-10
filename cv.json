@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Milton Barrientos",
-    "label": "Desarrollador Web Fullstack con más 2 años de experiencia en desarrollo y 1 año como Ingeniero de Software",
+    "label": "Ingeniero de Software con más de 2 años de experiencia",
     "image": "/me.webp",
     "email": "miltonbarrientos@gmail.com",
     "phone": "+504 88285038",
     "url": "https://crywhat.site/",
-    "summary": "3 años de experiencia como Desarrollador Web. Actualmente me encuentro trabajando en Allas Repuestos como Ingeniero de Software, donde he liderado el desarrollo de Proyectos para Usuarios Internos de la Empresa. He sabido que me dedicaría al rubro tecnologico desde que estaba en la cuna",
+    "summary": "+2 años de experiencia como Desarrollador Web. Actualmente me encuentro trabajando en Allas Repuestos como Ingeniero de Software, donde he liderado el desarrollo de Proyectos para Usuarios Internos de la Empresa. He sabido que me dedicaría al rubro tecnologico desde que estaba en la cuna.",
     "location": {
       "address": "https://maps.app.goo.gl/ZhXbcW6AKNwGrugKA",
       "postalCode": "11101",
@@ -30,7 +30,7 @@
   "work": [
     {
       "name": "Allas Repuestos",
-      "position": "",
+      "position": "Desarrollador FullStack → Ingeniero de Software",
       "url": "https://allasrepuestos.store/",
       "startDate": "2022-05-05",
       "endDate": null,
@@ -266,7 +266,7 @@
     {
       "name": "Base de Conocimientos - Departamento de Compras",
       "isActive": false,
-      "description": "Lideré el desarrollo de una Base de Conocimientos para el Departamento de Compras de Allas Repuestos. La aplicación permite a los usuarios de compras visualizar la información necesaria y puntual para cada pedido de cada producto, información proveida por los Gerentes de Compras",
+      "description": "Lideré el desarrollo de una Base de Conocimientos para el Departamento de Compras de Allas Repuestos. La aplicación permite a los usuarios de compras visualizar la información necesaria y puntual para cada pedido de cada producto, información proveida por los Gerentes de Compras.",
       "highlights": [
         "Liderazgo de Proyectos",
         "Desarrollo de Proyectos",
@@ -278,7 +278,7 @@
     {
       "name": "Proceso de Reclamos y Garantías",
       "isActive": false,
-      "description": "Lideré el desarrollo de un Proceso de Reclamos y Garantías para Allas Repuestos. La aplicación tiene como objetivo llevar un control de los reclamos y garantías de los productos vendidos por la empresa. Este proyecto fue una digitalización y mejora de la forma en que se llevaba el control de los reclamos y garantías en la empresa",
+      "description": "Lideré el desarrollo de un Proceso de Reclamos y Garantías para Allas Repuestos. La aplicación tiene como objetivo llevar un control de los reclamos y garantías de los productos vendidos por la empresa. Este proyecto fue una digitalización y mejora de la forma en que se llevaba el control de los reclamos y garantías en la empresa.",
       "highlights": [
         "Liderazgo de Proyectos",
         "Desarrollo de Proyectos",
@@ -289,7 +289,7 @@
     {
       "name": "Algoritmo de Resurtido de Tiendas",
       "isActive": false,
-      "description": "Desarrollé un Algoritmo de Resurtido de Tiendas para Allas Repuestos. El algoritmo tiene como objetivo calcular la cantidad de productos que se deben enviar a cada tienda de Allas Repuestos, basado en la demanda de los productos en cada tienda. El algoritmo toma en cuenta la demanda de los productos en cada tienda, la cantidad de productos en cada tienda y la cantidad de productos en el almacén central de la empresa",
+      "description": "Desarrollé un Algoritmo de Resurtido de Tiendas para Allas Repuestos. El algoritmo tiene como objetivo calcular la cantidad de productos que se deben enviar a cada tienda de Allas Repuestos, basado en la demanda de los productos en cada tienda. El algoritmo toma en cuenta la demanda de los productos en cada tienda, la cantidad de productos en cada tienda y la cantidad de productos en el almacén central de la empresa.",
       "highlights": [
         "Desarrollo BackEnd",
         "Comprensión de Logística",
@@ -313,7 +313,7 @@
     {
       "name": "Proceso de Consumo Interno",
       "isActive": false,
-      "description": "Lideré y Desarrollé un Proceso de Consumo Interno para Allas Repuestos. La aplicación tiene como objetivo llevar un control de los productos que se consumen internamente en la empresa. Este proyecto fue una digitalización y mejora de la forma en que se llevaba el control de los productos que se consumen internamente en la empresa",
+      "description": "Lideré y Desarrollé un Proceso de Consumo Interno para Allas Repuestos. La aplicación tiene como objetivo llevar un control de los productos que se consumen internamente en la empresa. Este proyecto fue una digitalización y mejora de la forma en que se llevaba el control de los productos que se consumen internamente en la empresa.",
       "highlights": [
         "Liderazgo de Proyectos",
         "Desarrollo de Proyectos",
@@ -325,14 +325,14 @@
     {
       "name": "Rediseño de la Página Web",
       "isActive": true,
-      "description": "Lideré el rediseño de la Página Web de Allas Repuestos. La aplicación tiene como objetivo mejorar la experiencia de usuario y la usabilidad de la página web de la empresa. Este fue un proyecto opcional que propuse y lideré, con el objetivo de mejorar la imagen de la empresa y la experiencia de usuario en la página web",
+      "description": "Lideré el rediseño de la Página Web de Allas Repuestos. La aplicación tiene como objetivo mejorar la experiencia de usuario y la usabilidad de la página web de la empresa. Este fue un proyecto opcional que propuse y lideré, con el objetivo de mejorar la imagen de la empresa y la experiencia de usuario en la página web.",
       "highlights": ["Astro", "Páginas Estáticas", "SSR"],
       "url": "https://allasrepuestos.store/"
     },
     {
       "name": "Módulo CRM de Seguimiento de Clientes",
       "isActive": false,
-      "description": "Participé como Desarrollador JR en la creación de un CRM para el seguimiento de clientes de Allas Repuestos. La aplicación tiene como objetivo llevar un control de los clientes de la empresa, sus pedidos, sus pagos y sus reclamos. Este proyecto fue una digitalización y mejora de la forma en que se llevaba el control de los clientes en la empresa",
+      "description": "Participé como Desarrollador JR en la creación de un CRM para el seguimiento de clientes de Allas Repuestos. La aplicación tiene como objetivo llevar un control de los clientes de la empresa, sus pedidos, sus pagos y sus reclamos. Este proyecto fue una digitalización y mejora de la forma en que se llevaba el control de los clientes en la empresa.",
       "highlights": ["CRM", "Desarrollo FrontEnd"],
       "url": null
     },
@@ -346,7 +346,7 @@
     {
       "name": "Entre otros...",
       "isActive": false,
-      "description": "Actualmente llevo +30 proyectos en los que me he involucrado en la empresa",
+      "description": "Actualmente llevo +30 proyectos en los que me he involucrado en la empresa.",
       "highlights": [],
       "url": null
     }
