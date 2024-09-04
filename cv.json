@@ -273,6 +273,17 @@
   ],
   "projects": [
     {
+      "name": "Abyss",
+      "isActive": true,
+      "description": "Proyecto de la universidad, una aplicación web estilo eCommerce que permite a los usuarios comprar productos de tecnología. La aplicación fue desarrollada con Angular, NestJS, Supabase, TailwindCSS, entre otras tecnologías.",
+      "highlights": [
+        "Trabajo en Equipo",
+        "Desarrollo de Proyectos",
+        "Desarrollo FullStack"
+      ],
+      "url": "https://abysshn.shop/"
+    },
+    {
       "name": "Diagramación de Procesos - Logística",
       "isActive": false,
       "description": "Diagramé los procesos de Logística de Allas Repuestos. Los procesos diagramados fueron: Procesamiento de Nueva Mercadería, Toma de Inventarios, Base de Conocimientos, Proceso de Reclamos y Garantías, Algoritmo de Resurtido de Tiendas, Módulo de Compras - Nacionalización de Pedidos, Proceso de Consumo Interno, entre otros.",
