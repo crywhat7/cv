@@ -41,6 +41,19 @@
         "Desarrollo de Proyectos",
         "Trabajo en Equipo"
       ]
+    },
+    {
+      "name": "Servicentro Willy",
+      "position": "Freelancer - Desarrollador Web y Lider de Proyectos",
+      "url": "https://www.facebook.com/servicentrowillyhn",
+      "startDate": "2024-07-01",
+      "endDate": null,
+      "summary": "Actualmente me encuentro trabajando en variados paquetes de mejoras en el sistema de clientes internos de Servicentro Willy. He liderado el desarrollo de Proyectos para Usuarios Internos de la Empresa. He trabajado con tecnologías como Angular, NestJS, PostgreSQL.",
+      "highlights": [
+        "Liderazgo de Proyectos",
+        "Desarrollo de Proyectos",
+        "Trabajo en Equipo"
+      ]
     }
   ],
   "volunteer": [],
@@ -260,14 +273,49 @@
   ],
   "projects": [
     {
+      "name": "Diagramación de Procesos - Logística",
+      "isActive": false,
+      "description": "Diagramé los procesos de Logística de Allas Repuestos. Los procesos diagramados fueron: Procesamiento de Nueva Mercadería, Toma de Inventarios, Base de Conocimientos, Proceso de Reclamos y Garantías, Algoritmo de Resurtido de Tiendas, Módulo de Compras - Nacionalización de Pedidos, Proceso de Consumo Interno, entre otros.",
+      "highlights": ["Diagramación de Procesos"],
+      "url": null
+    },
+    {
+      "name": "Procesamientos de Nueva Mercadería - Logística",
+      "isActive": false,
+      "description": "Lideré el desarrollo de un proyecto que tiene como objetivo llevar un control de la nueva mercadería que llega a la empresa. La aplicación permite a los usuarios de logística seguir un proceso establecido para la recepción de la nueva mercadería, digitalización de documentos y automatización de procesos manuales.",
+      "highlights": [
+        "Liderazgo de Proyectos",
+        "Desarrollo de Proyectos",
+        "Trabajo en Equipo"
+      ],
+      "url": null
+    },
+    {
+      "name": "Toma de Inventarios - Logística",
+      "isActive": false,
+      "description": "Lideré el desarrollo de un módulo que tiene como objetivo realizar la toma de inventarios de los productos en las tiendas de Allas Repuestos. La aplicación permite a los usuarios de logística realizar la toma de inventarios de los productos en las tiendas de la empresa, digitalización de documentos y automatización de procesos manuales.",
+      "highlights": [
+        "Liderazgo de Proyectos",
+        "Desarrollo de Proyectos",
+        "Trabajo en Equipo"
+      ],
+      "url": null
+    },
+    {
+      "name": "Módulo de aplicaciones de vehiculos-productos",
+      "isActive": false,
+      "description": "Desarrollé un módulo que permite a los clientes de Servicentro Willy, definir los productos que se le aplicarán a un vehículo en específico. La aplicación permite a los usuarios de Servicentro Willy definir los productos que se le aplicarán a un vehículo en específico.",
+      "highlights": ["Desarrollo de Proyectos", "Trabajo en Equipo"],
+      "url": null
+    },
+    {
       "name": "Base de Conocimientos - Departamento de Compras",
       "isActive": false,
       "description": "Lideré el desarrollo de una Base de Conocimientos para el Departamento de Compras de Allas Repuestos. La aplicación permite a los usuarios de compras visualizar la información necesaria y puntual para cada pedido de cada producto, información proveida por los Gerentes de Compras.",
       "highlights": [
         "Liderazgo de Proyectos",
         "Desarrollo de Proyectos",
-        "Trabajo en Equipo",
-        "En Desarrollo"
+        "Trabajo en Equipo"
       ],
       "url": null
     },
