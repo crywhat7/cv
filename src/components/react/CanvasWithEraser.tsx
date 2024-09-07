@@ -15,7 +15,6 @@ export default function MouseStyle() {
   const POINTS_AGE_LIMIT = 15;
   const INTERVAL_MS = 12;
   const STROKE_WIDTH_START = 4;
-  const STROKE_WIDTH_END = 0.5;
   const LAST_TIME_COMPARISON = 3000;
   const FPS = 200;
 
