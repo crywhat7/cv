@@ -1,5 +1,6 @@
 ---
 import { basics } from "@cv";
+import MouseStyle from "../components/react/CanvasWithEraser";
 
 interface Props {
   title: string;
@@ -22,6 +23,7 @@ const { image, summary } = basics;
   </head>
   <body>
     <slot />
+    <MouseStyle client:load />
   </body>
 </html>
 
@@ -37,6 +39,12 @@ const { image, summary } = basics;
       monospace;
     background: #fff;
     letter-spacing: -0.025rem;
+  }
+
+  body {
+    cursor:
+      url(/public/static/icons/rounded-pointer.svg) 12 12,
+      auto;
   }
 
   body,
