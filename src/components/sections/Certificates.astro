@@ -5,26 +5,33 @@ import { certificates } from "../../../cv.json";
 ---
 
 <Section title="Certificados">
-  <ul>
+  <ul
+    class="grid grid-cols-1 md:grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-4 -mx-4 sm:mx-0"
+  >
     {
       certificates.map(({ date, issuer, name, url }) => {
         return (
           <li>
-            <article>
-              <header>
-                <h3>
+            <article class="border border-gray-200 rounded-lg p-4 h-full flex flex-col gap-4 shadow-none border-none md:border-solid md:shadow-sm">
+              <header class="flex-1">
+                <h3 class="mb-1 text-black font-bold">
                   <a
                     href={url}
                     title={`Ver el proyecto ${name}`}
                     target="_blank"
+                    class="text-black hover:underline"
                   >
                     {name}
                   </a>
                 </h3>
               </header>
-              <footer>
-                <span>{date}</span>
-                <span>{issuer}</span>
+              <footer class="flex flex-wrap gap-1 text-[0.6rem]">
+                <span class="bg-gray-200 text-black font-medium py-1 px-2 rounded-md">
+                  {date}
+                </span>
+                <span class="bg-gray-200 text-black font-medium py-1 px-2 rounded-md">
+                  {issuer}
+                </span>
               </footer>
             </article>
           </li>
@@ -33,82 +40,3 @@ import { certificates } from "../../../cv.json";
     }
   </ul>
 </Section>
-
-<style>
-  ul {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    margin-inline: -16px;
-  }
-
-  article {
-    border-radius: 8px;
-    border: 1px solid #f2f2f2;
-    gap: 16px;
-    display: flex;
-    flex-direction: column;
-    padding: 16px;
-    height: 100%;
-  }
-
-  article header {
-    flex: 1;
-  }
-
-  article h3 {
-    margin-bottom: 4px;
-    color: #111;
-    font-weight: bold;
-  }
-
-  article a {
-    color: #111;
-  }
-
-  article a:hover {
-    text-decoration: underline;
-  }
-
-  article p {
-    font-size: 0.75rem;
-    line-height: 1.2rem;
-    margin-bottom: 4px;
-  }
-
-  article h3 span {
-    color: rgb(0, 188, 47);
-  }
-
-  footer {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 4px;
-    font-size: 0.6rem;
-  }
-
-  footer span {
-    border-radius: 6px;
-    background: #eee;
-    color: black;
-    font-size: 0.6rem;
-    font-weight: 500;
-    padding: 0.2rem 0.6rem;
-  }
-
-  .github-code-link {
-    margin-left: 5px;
-  }
-
-  @media (width <= 700px) {
-    ul {
-      margin-inline: 0px;
-    }
-
-    article {
-      border: none;
-      box-shadow: 0 1px 1px #f2f2f2;
-      padding: 0 0 16px 0;
-    }
-  }
-</style>

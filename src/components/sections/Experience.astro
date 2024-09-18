@@ -5,7 +5,7 @@ import { work } from "../../../cv.json";
 ---
 
 <Section title="Experiencia laboral">
-  <ul>
+  <ul class="flex flex-col gap-8">
     {
       work.map(
         ({ name, startDate, endDate, position, summary, highlights, url }) => {
@@ -18,26 +18,27 @@ import { work } from "../../../cv.json";
             <>
               <li>
                 <article>
-                  <header>
+                  <header class="flex gap-4 justify-between">
                     <div>
-                      <h3>
+                      <h3 class="text-lg hover:underline">
                         <a href={url} title={`Ver ${name}`} target="_blank">
                           {name}
                         </a>
                       </h3>
-                      <h4>{position}</h4>
+                      <h4 class="text-lg">{position}</h4>
                     </div>
-
-                    <time>{years}</time>
+                    <time class="text-gray-600 text-xs md:text-sm text-nowrap">
+                      {years}
+                    </time>
                   </header>
 
                   <footer>
-                    <p>{summary}</p>
+                    <p class="mt-1">{summary}</p>
                   </footer>
                 </article>
-                <ul class="highlights">
+                <ul class="mt-2 gap-2 flex flex-wrap">
                   {highlights.map((highlight) => (
-                    <li>
+                    <li class="bg-gray-200/70 hover:bg-gray-200 text-sm font-medium px-3 py-1 rounded-md transition-colors duration-300">
                       <span>{highlight}</span>
                     </li>
                   ))}
@@ -50,66 +51,3 @@ import { work } from "../../../cv.json";
     }
   </ul>
 </Section>
-
-<style>
-  ul {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-  }
-
-  article h3 {
-    font-weight: 500;
-    color: #111;
-  }
-
-  article a {
-    color: #111;
-  }
-
-  article a:hover {
-    text-decoration: underline;
-  }
-
-  article h4 {
-    color: #222;
-    font-weight: 400;
-  }
-
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 4px;
-  }
-
-  time {
-    color: #555;
-    font-size: 0.85rem;
-    min-width: 102px;
-  }
-
-  ul.highlights {
-    margin-top: 8px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-
-  ul.highlights li {
-    border-radius: 6px;
-    background: #eee;
-    color: black;
-    font-size: 0.8rem;
-    font-weight: 500;
-    padding: 0.2rem 0.6rem;
-    width: fit-content;
-  }
-
-  @media (width <= 700px) {
-    time {
-      text-align: right;
-    }
-  }
-</style>

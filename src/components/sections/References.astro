@@ -5,20 +5,18 @@ import { references } from "../../../cv.json";
 ---
 
 <Section title="Referencias">
-  <ul>
+  <ul class="flex flex-col gap-8">
     {
       references.map(({ name, reference }) => {
         return (
           <li>
             <article>
-              <header>
-                <div>
-                  <h3>{name}</h3>
-                </div>
+              <header class="flex gap-4 justify-between">
+                <h3 class="text-lg hover:underline">{name}</h3>
               </header>
 
               <footer>
-                <p>{reference}</p>
+                <p class="mt-1">{reference}</p>
               </footer>
             </article>
           </li>
@@ -27,35 +25,3 @@ import { references } from "../../../cv.json";
     }
   </ul>
 </Section>
-
-<style>
-  ul {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-  }
-
-  article h3 {
-    font-weight: 500;
-    color: #111;
-  }
-
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 4px;
-  }
-
-  time {
-    color: #555;
-    font-size: 0.85rem;
-    min-width: 102px;
-  }
-
-  @media (width <= 700px) {
-    time {
-      text-align: right;
-    }
-  }
-</style>

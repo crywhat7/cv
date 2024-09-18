@@ -1,8 +1,8 @@
 ---
-import { type SocialIcon } from "../types"
-import { basics } from "../../cv.json"
+import { type SocialIcon } from "../types";
+import { basics } from "../../cv.json";
 
-const { profiles } = basics
+const { profiles } = basics;
 
 const SOCIAL_ICONS: SocialIcon = {
   GitHub: `<svg
@@ -39,11 +39,11 @@ const SOCIAL_ICONS: SocialIcon = {
   ></path></svg
 >
 `,
-}
+};
 
 const profilesInfo = profiles.map(({ network, url }) => {
-  const icon = SOCIAL_ICONS[network]
-  const firstLetter = network[0].toUpperCase()
+  const icon = SOCIAL_ICONS[network];
+  const firstLetter = network[0].toUpperCase();
 
   return {
     id: network,
@@ -52,15 +52,23 @@ const profilesInfo = profiles.map(({ network, url }) => {
     url,
     icon,
     hotkey: `ctrl+${firstLetter}`,
-  }
-})
+  };
+});
 ---
 
-<footer id="normal-footer" class="no-print">
-  Pulsa <kbd>Cmd</kbd> + <kbd>K</kbd> para abrir la paleta de comandos.
+<footer
+  id="normal-footer"
+  class="no-print bg-white border-t border-gray-200 fixed bottom-0 w-full py-2 text-center text-sm animate-fadeIn hidden sm:block"
+>
+  Pulsa <kbd class="bg-gray-200 rounded px-1 text-xs">Cmd</kbd> + <kbd
+    class="bg-gray-200 rounded px-1 text-xs">K</kbd
+  > para abrir la paleta de comandos.
 </footer>
 
-<div id="footer-button" class="no-print">
+<div
+  id="footer-button"
+  class="no-print bg-white border border-gray-200 fixed right-2 bottom-2 w-12 h-12 rounded-full flex items-center justify-center cursor-pointer sm:hidden"
+>
   <svg
     xmlns="http://www.w3.org/2000/svg"
     class="icon icon-tabler icon-tabler-command"
@@ -86,19 +94,19 @@ const profilesInfo = profiles.map(({ network, url }) => {
   hideBreadcrumbs></ninja-keys>
 
 <script>
-  import "ninja-keys"
+  import "ninja-keys";
 
   interface Info {
-    id: string
-    section: string
-    title: string
-    url: string
-    icon: string
-    hotkey: string
+    id: string;
+    section: string;
+    title: string;
+    url: string;
+    icon: string;
+    hotkey: string;
   }
 
-  const ninja = document.querySelector("ninja-keys")
-  const footerButton = document.getElementById("footer-button")
+  const ninja = document.querySelector("ninja-keys");
+  const footerButton = document.getElementById("footer-button");
 
   footerButton?.addEventListener("click", () => {
     var event = new KeyboardEvent("keydown", {
@@ -110,14 +118,14 @@ const profilesInfo = profiles.map(({ network, url }) => {
       altKey: false,
       shiftKey: false,
       metaKey: false,
-    })
+    });
 
-    document.dispatchEvent(event)
-  })
+    document.dispatchEvent(event);
+  });
 
   if (ninja != null) {
-    const info = ninja.getAttribute("data-info") ?? "[]"
-    const parsedInfo = JSON.parse(info)
+    const info = ninja.getAttribute("data-info") ?? "[]";
+    const parsedInfo = JSON.parse(info);
 
     const data = parsedInfo.map(
       ({ url, hotkey, icon, id, section, title }: Info) => {
@@ -128,11 +136,11 @@ const profilesInfo = profiles.map(({ network, url }) => {
           hotkey,
           section,
           handler: () => {
-            window.open(url, "_blank")
+            window.open(url, "_blank");
           },
-        }
+        };
       }
-    )
+    );
 
     ninja.data = [
       {
@@ -144,11 +152,11 @@ const profilesInfo = profiles.map(({ network, url }) => {
         hotkey: "ctrl+P",
         section: "Acciones",
         handler: () => {
-          window.print()
+          window.print();
         },
       },
       ...data,
-    ]
+    ];
   }
 </script>
 
@@ -157,70 +165,5 @@ const profilesInfo = profiles.map(({ network, url }) => {
     ninja-keys {
       display: none !important;
     }
-  }
-
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-
-  @media (min-width: 601px) {
-    #normal-footer {
-      display: block;
-    }
-
-    #footer-button {
-      display: none;
-    }
-  }
-
-  @media (max-width: 600px) {
-    #normal-footer {
-      display: none;
-    }
-
-    #footer-button {
-      background: #fff;
-      position: fixed;
-      border: 1px solid #eee;
-      right: 10px;
-      bottom: 10px;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-    }
-  }
-
-  footer {
-    background: #fdfdfd;
-    border-top: 1px solid #eee;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    padding-block: 8px;
-    text-align: center;
-    font-size: 0.85rem;
-
-    view-timeline-name: --revealing;
-    view-timeline-axis: block;
-
-    animation: linear 0.3s fadeIn;
-    animation-timeline: --revealing;
-    animation-range: entry 100% cover 10%;
-  }
-
-  kbd {
-    background: #eee;
-    border-radius: 4px;
-    padding: 2px 4px;
-    font-size: 12px;
   }
 </style>
