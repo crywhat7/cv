@@ -31,7 +31,12 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
     <div
       class="info flex flex-col gap-3 justify-center order-2 md:order-1 text-center items-center md:items-start"
     >
-      <h1 class="text-4xl">{name}</h1>
+      <h1
+        id="name"
+        class="text-4xl bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.blue.800),theme(colors.blue.300),theme(colors.sky.800),theme(colors.green.800),theme(colors.sky.900),theme(colors.blue.300),theme(colors.blue.800))] bg-[length:200%_auto] animate-gradient"
+      >
+        {name}
+      </h1>
       <h2 class="text-xl text-gray-700">{label}</h2>
       <a
         href={address}
@@ -95,3 +100,12 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
     </figure>
   </div>
 </Section>
+
+<style>
+  @media print {
+    #name {
+      background: none !important;
+      color: black !important;
+    }
+  }
+</style>
