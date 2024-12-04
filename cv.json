@@ -274,7 +274,7 @@
   "projects": [
     {
       "name": "Palette Wizard",
-      "isActive": false,
+      "isActive": true,
       "description": "Proyecto personal con amigos, una aplicación web que permite a los usuarios buscar paletas de colores y copiarlas para TailwindCSS. La aplicación fue desarrollada con NextJS con TailwindCSS.",
       "highlights": [
         "Trabajo en Equipo",
