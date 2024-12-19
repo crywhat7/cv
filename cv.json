@@ -284,6 +284,18 @@
       "url": "https://www.palettewizard.me/"
     },
     {
+      "name": "Alumni UPNFM",
+      "isActive": true,
+      "description": "Aplicación en trabajo, consiste en una plataforma para los egresados de la Universidad Pedagógica Nacional Francisco Morazán. La aplicación fue desarrollada con NextJS, TailwindCSS, Supabase, entre otras tecnologías.",
+      "highlights": [
+        "Trabajo en Equipo",
+        "Desarrollo de Proyectos",
+        "Desarrollo FullStack",
+        "NextJS"
+      ],
+      "url": "https://alumni-upnfm-nextjs.vercel.app/"
+    },
+    {
       "name": "Find Your Prices",
       "isActive": false,
       "description": "Proyecto personal con amigos, una aplicación web que permite a los usuarios buscar productos y comparar precios en diferentes tiendas. La aplicación fue desarrollada con Angular, NodeJS, PostgreSQL, TailwindCSS, entre otras",
@@ -292,7 +304,7 @@
         "Desarrollo de Proyectos",
         "Desarrollo FullStack"
       ],
-      "url": "https://findyourprices.com/"
+      "url": null
     },
     {
       "name": "Abyss",
@@ -303,7 +315,7 @@
         "Desarrollo de Proyectos",
         "Desarrollo FullStack"
       ],
-      "url": "https://abysshn.shop/"
+      "url": null
     },
     {
       "name": "Diagramación de Procesos - Logística",
@@ -404,7 +416,7 @@
       "isActive": true,
       "description": "Lideré el rediseño de la Página Web de Allas Repuestos. La aplicación tiene como objetivo mejorar la experiencia de usuario y la usabilidad de la página web de la empresa. Este fue un proyecto opcional que propuse y lideré, con el objetivo de mejorar la imagen de la empresa y la experiencia de usuario en la página web.",
       "highlights": ["Astro", "Páginas Estáticas", "SSR"],
-      "url": "https://allasrepuestos.store/"
+      "url": "https://allas-new-page.netlify.app/"
     },
     {
       "name": "Módulo CRM de Seguimiento de Clientes",
