@@ -31,7 +31,7 @@
     {
       "name": "Allas Repuestos",
       "position": "Desarrollador FullStack → Ingeniero de Software",
-      "url": "https://allasrepuestos.store/",
+      "url": "https://allas-new-page.netlify.app/",
       "startDate": "2022-05-05",
       "endDate": null,
       "summary": "Empecé como Desarrollador Trainee con nula Experiencia, con el tiempo (y muy rápido) fui escalando posiciones hasta llegar a Ingeniero de Software. He liderado el desarrollo de Proyectos para Usuarios Internos de la Empresa. He trabajado con tecnologías como Angular, NodeJS, PostgreSQL, C#, DatawareHouse, entre otras. Me he familiarizado con la metodología SCRUM desde el primer día.",
@@ -285,7 +285,7 @@
     },
     {
       "name": "Alumni UPNFM",
-      "isActive": true,
+      "isActive": false,
       "description": "Aplicación en trabajo, consiste en una plataforma para los egresados de la Universidad Pedagógica Nacional Francisco Morazán. La aplicación fue desarrollada con NextJS, TailwindCSS, Supabase, entre otras tecnologías.",
       "highlights": [
         "Trabajo en Equipo",
@@ -293,7 +293,7 @@
         "Desarrollo FullStack",
         "NextJS"
       ],
-      "url": "https://alumni-upnfm-nextjs.vercel.app/"
+      "url": "null"
     },
     {
       "name": "Find Your Prices",
