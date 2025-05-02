@@ -35,12 +35,7 @@
       "startDate": "2022-05-05",
       "endDate": null,
       "summary": "Empecé como Desarrollador Trainee con nula Experiencia, con el tiempo (y muy rápido) fui escalando posiciones hasta llegar a Ingeniero de Software. He liderado el desarrollo de Proyectos para Usuarios Internos de la Empresa. He trabajado con tecnologías como Angular, NodeJS, PostgreSQL, C#, DatawareHouse, entre otras. Me he familiarizado con la metodología SCRUM desde el primer día.",
-      "highlights": [
-        "Crecimiento rápido",
-        "Liderazgo de Proyectos",
-        "Desarrollo de Proyectos",
-        "Trabajo en Equipo"
-      ]
+      "highlights": ["Liderazgo de Proyectos", "Desarrollo de Proyectos"]
     },
     {
       "name": "Servicentro Willy",
@@ -49,11 +44,7 @@
       "startDate": "2024-07-01",
       "endDate": null,
       "summary": "Actualmente me encuentro trabajando en variados paquetes de mejoras en el sistema de clientes internos de Servicentro Willy. He liderado el desarrollo de Proyectos para Usuarios Internos de la Empresa. He trabajado con tecnologías como Angular, NestJS, PostgreSQL.",
-      "highlights": [
-        "Liderazgo de Proyectos",
-        "Desarrollo de Proyectos",
-        "Trabajo en Equipo"
-      ]
+      "highlights": ["Freelancer"]
     }
   ],
   "volunteer": [],
@@ -72,6 +63,18 @@
   "awards": [],
   "certificates": [
     {
+      "name": "Complete C# Masterclass",
+      "date": "2023-11-13",
+      "issuer": "Udemy Business",
+      "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-111c9a87-090f-4c78-8e06-c514c26213db.jpg?v=1699892909000"
+    },
+    {
+      "name": "Learn SQL Using PostgreSQL: From Zero to Hero",
+      "date": "2022-09-20",
+      "issuer": "Udemy Business",
+      "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-148665fb-db08-4a3e-b711-b26f3fa4264c.jpg?v=1663729227000"
+    },
+    {
       "name": "Angular - The Complete Guide (2024 Edition)",
       "date": "2023-03-01",
       "issuer": "Udemy Business",
@@ -82,36 +85,6 @@
       "date": "2023-07-08",
       "issuer": "Udemy Business",
       "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-f99765ea-1d0b-4210-9dda-303f7fb840e2.jpg?v=1688828179000"
-    },
-    {
-      "name": "Understanding TypeScript",
-      "date": "2022-10-22",
-      "issuer": "Udemy Business",
-      "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-914531bb-818a-4361-a179-f13ad8cbea13.jpg?v=1666498602000"
-    },
-    {
-      "name": "Learn SQL Using PostgreSQL: From Zero to Hero",
-      "date": "2022-09-20",
-      "issuer": "Udemy Business",
-      "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-148665fb-db08-4a3e-b711-b26f3fa4264c.jpg?v=1663729227000"
-    },
-    {
-      "name": "Complete C# Masterclass",
-      "date": "2023-11-13",
-      "issuer": "Udemy Business",
-      "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-111c9a87-090f-4c78-8e06-c514c26213db.jpg?v=1699892909000"
-    },
-    {
-      "name": "Modern JavaScript (Complete guide, from Novice to Ninja)",
-      "date": "2022-10-09",
-      "issuer": "Udemy Business",
-      "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-07e32514-6598-444c-bfc6-c4c096c8d03b.jpg?v=1665334084000"
-    },
-    {
-      "name": "Node.js, Express, MongoDB & More: The Complete Bootcamp 2024",
-      "date": "2023-01-07",
-      "issuer": "Udemy Business",
-      "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-b02a2fa0-4ff6-4116-b936-f15ee27556e2.jpg?v=1673101018000"
     }
   ],
   "publications": [],
@@ -123,22 +96,10 @@
       "image": "/skills-logos/angular.webp"
     },
     {
-      "name": "NextJS",
-      "level": "Intermedio",
-      "keywords": [],
-      "image": "/skills-logos/next-js.svg"
-    },
-    {
       "name": "React",
       "level": "Intermedio",
       "keywords": [],
       "image": "/skills-logos/react.webp"
-    },
-    {
-      "name": "Astro",
-      "level": "Intermedio",
-      "keywords": ["Desarrollo Web", "Frontend"],
-      "image": "/skills-logos/astro.webp"
     },
     {
       "name": "NodeJS",
@@ -158,18 +119,6 @@
       "image": "/skills-logos/postgresql.webp"
     },
     {
-      "name": "HTML",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend"],
-      "image": "/skills-logos/html.webp"
-    },
-    {
-      "name": "CSS",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"],
-      "image": "/skills-logos/css.webp"
-    },
-    {
       "name": "Tailwind",
       "level": "Avanzado",
       "keywords": [
@@ -181,14 +130,8 @@
       "image": "/skills-logos/tailwind.webp"
     },
     {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"],
-      "image": "/skills-logos/js.webp"
-    },
-    {
       "name": "TypeScript",
-      "level": "Avanzado",
+      "level": "Master",
       "keywords": [
         "Desarrollo Web",
         "Frontend",
@@ -202,17 +145,6 @@
       "level": "Avanzado",
       "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"],
       "image": "/skills-logos/git.webp"
-    },
-    {
-      "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones",
-        "Colaboración",
-        "Código Fuente",
-        "Git"
-      ],
-      "image": "/skills-logos/github.webp"
     },
     {
       "name": "Bitbucket",
@@ -234,16 +166,6 @@
         "Gestión de Equipos"
       ],
       "image": "/skills-logos/jira.webp"
-    },
-    {
-      "name": "Confluence",
-      "level": "Avanzado",
-      "keywords": [
-        "Gestión de Proyectos",
-        "Gestión de Tareas",
-        "Gestión de Equipos"
-      ],
-      "image": "/skills-logos/confluence.webp"
     }
   ],
   "languages": [
@@ -268,6 +190,10 @@
     }
   ],
   "references": [
+    {
+      "name": "Alicia Flores",
+      "reference": "Desarrolladora de Sofware en Banco de Occidente - (+504 9756-4690)"
+    },
     {
       "name": "Heberth Elvir",
       "reference": "Gerente de Operaciones en COPECO - (+504 3329-2869)"
@@ -294,31 +220,6 @@
       "url": "https://www.palettewizard.me/"
     },
     {
-      "name": "Alumni UPNFM",
-      "isActive": false,
-      "description": "Aplicación en trabajo, consiste en una plataforma para los egresados de la Universidad Pedagógica Nacional Francisco Morazán. La aplicación fue desarrollada con NextJS, TailwindCSS, Supabase, entre otras tecnologías.",
-      "highlights": [
-        "Trabajo en Equipo",
-        "Desarrollo de Proyectos",
-        "Desarrollo FullStack",
-        "NextJS"
-      ],
-      "url": null
-    },
-    {
-      "name": "Find Your Prices",
-      "isActive": false,
-      "description": "Proyecto personal con amigos, un servicio de scrap con una aplicación web que permite a los usuarios buscar productos y comparar precios en diferentes tiendas. La aplicación fue desarrollada con NextJS, NodeJS, PostgreSQL, TailwindCSS, entre otras",
-      "highlights": [
-        "Trabajo en Equipo",
-        "Desarrollo de Proyectos",
-        "Desarrollo FullStack",
-        "NextJS",
-        "Scrapping"
-      ],
-      "url": null
-    },
-    {
       "name": "Algoritmo de Resurtido de Tiendas",
       "isActive": false,
       "description": "Desarrollé un Algoritmo de Resurtido de Tiendas para Allas Repuestos. El algoritmo tiene como objetivo calcular la cantidad de productos que se deben enviar a cada tienda de Allas Repuestos, basado en la demanda de los productos en cada tienda. El algoritmo toma en cuenta la demanda de los productos en cada tienda, la cantidad de productos en cada tienda y la cantidad de productos en el almacén central de la empresa.",
@@ -330,67 +231,6 @@
         "PostgreSQL",
         "Automatización de Procesos"
       ],
-      "url": null
-    },
-    {
-      "name": "Diagramación de Procesos - Logística",
-      "isActive": false,
-      "description": "Diagramé los procesos de Logística de Allas Repuestos. Los procesos diagramados fueron: Procesamiento de Nueva Mercadería, Toma de Inventarios, Base de Conocimientos, Proceso de Reclamos y Garantías, Algoritmo de Resurtido de Tiendas, Módulo de Compras - Nacionalización de Pedidos, Proceso de Consumo Interno, entre otros.",
-      "highlights": ["Diagramación de Procesos"],
-      "url": null
-    },
-    {
-      "name": "Procesamientos de Nueva Mercadería - Logística",
-      "isActive": false,
-      "description": "Lideré el desarrollo de un proyecto que tiene como objetivo llevar un control de la nueva mercadería que llega a la empresa. La aplicación permite a los usuarios de logística seguir un proceso establecido para la recepción de la nueva mercadería, digitalización de documentos y automatización de procesos manuales.",
-      "highlights": [
-        "Liderazgo de Proyectos",
-        "Desarrollo de Proyectos",
-        "Trabajo en Equipo"
-      ],
-      "url": null
-    },
-    {
-      "name": "Toma de Inventarios - Logística",
-      "isActive": false,
-      "description": "Lideré el desarrollo de un módulo que tiene como objetivo realizar la toma de inventarios de los productos en las tiendas de Allas Repuestos. La aplicación permite a los usuarios de logística realizar la toma de inventarios de los productos en las tiendas de la empresa, digitalización de documentos y automatización de procesos manuales.",
-      "highlights": [
-        "Liderazgo de Proyectos",
-        "Desarrollo de Proyectos",
-        "Trabajo en Equipo"
-      ],
-      "url": null
-    },
-    {
-      "name": "Proceso de Reclamos y Garantías",
-      "isActive": false,
-      "description": "Lideré el desarrollo de un Proceso de Reclamos y Garantías para Allas Repuestos. La aplicación tiene como objetivo llevar un control de los reclamos y garantías de los productos vendidos por la empresa. Este proyecto fue una digitalización y mejora de la forma en que se llevaba el control de los reclamos y garantías en la empresa.",
-      "highlights": [
-        "Liderazgo de Proyectos",
-        "Desarrollo de Proyectos",
-        "Toma de Requerimientos"
-      ],
-      "url": null
-    },
-    {
-      "name": "Rediseño de la Página Web",
-      "isActive": true,
-      "description": "Lideré el rediseño de la Página Web de Allas Repuestos. La aplicación tiene como objetivo mejorar la experiencia de usuario y la usabilidad de la página web de la empresa. Este fue un proyecto opcional que propuse y lideré, con el objetivo de mejorar la imagen de la empresa y la experiencia de usuario en la página web.",
-      "highlights": ["Astro", "Páginas Estáticas", "SSR"],
-      "url": "https://allas-new-page.netlify.app/"
-    },
-    {
-      "name": "Módulo CRM de Seguimiento de Clientes",
-      "isActive": false,
-      "description": "Participé como Desarrollador JR en la creación de un CRM para el seguimiento de clientes de Allas Repuestos. La aplicación tiene como objetivo llevar un control de los clientes de la empresa, sus pedidos, sus pagos y sus reclamos. Este proyecto fue una digitalización y mejora de la forma en que se llevaba el control de los clientes en la empresa.",
-      "highlights": ["CRM", "Desarrollo FrontEnd"],
-      "url": null
-    },
-    {
-      "name": "Tableros de MCIs y MPs para el Departamento de Ventas",
-      "isActive": false,
-      "description": "Lideré y Participé en el desarrollo de Tableros de MCIs (Metas Crucialmente Importantes) y MPs (Medidas de Predicción) para el Departamento de Ventas de Allas Repuestos. Los tableros tienen como objetivo llevar un control de las metas y las medidas de predicción del departamento de ventas de la empresa.",
-      "highlights": ["Looker Studio", "DataWareHouse"],
       "url": null
     },
     {
