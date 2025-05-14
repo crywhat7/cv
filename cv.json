@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Milton Barrientos",
-    "label": "Ingeniero de Software con más de 2 años de experiencia",
+    "label": "Ingeniero de Software con más de 3 años de experiencia",
     "image": "/me.webp",
     "email": "miltonbarrientos2@gmail.com",
-    "phone": "+504 88285038",
+    "phone": "+504 8828-5038",
     "url": "https://crywhat.site/",
-    "summary": "+2 años de experiencia como Desarrollador Web. Actualmente me encuentro trabajando en Allas Repuestos como Ingeniero de Software, donde he liderado el desarrollo de Proyectos para Usuarios Internos de la Empresa. He sabido que me dedicaría al rubro tecnologico desde que estaba en la cuna.",
+    "summary": "+3 años de experiencia como Ingeniero de Software especializado en C#, .NET, Angular, PostgreSQL, SQLServer, Flutter y todo tipo de herramientas WEB. Actualmente trabajo en Allas Repuestos, liderando proyectos internos con un enfoque en aplicaciones de escritorio o aplicaciones web robustas y eficientes.",
     "location": {
       "address": "https://maps.app.goo.gl/ZhXbcW6AKNwGrugKA",
       "postalCode": "11101",
@@ -34,7 +34,7 @@
       "url": "https://allas-new-page.netlify.app/",
       "startDate": "2022-05-05",
       "endDate": null,
-      "summary": "Empecé como Desarrollador Trainee con nula Experiencia, con el tiempo (y muy rápido) fui escalando posiciones hasta llegar a Ingeniero de Software. He liderado el desarrollo de Proyectos para Usuarios Internos de la Empresa. He trabajado con tecnologías como Angular, NodeJS, PostgreSQL, C#, DatawareHouse, entre otras. Me he familiarizado con la metodología SCRUM desde el primer día.",
+      "summary": "Empecé como Desarrollador Trainee con nula Experiencia, con el tiempo (y muy rápido) fui escalando posiciones hasta llegar a Ingeniero de Software. He liderado el desarrollo de Proyectos para Usuarios Internos de la Empresa. He trabajado con tecnologías de escritorio como C#, .NET, tecnologías web como Angular, NodeJS, React y bases de datos como PostgreSQL y SQL Server, además de DatawareHouse, entre otras. Me he familiarizado con la metodología SCRUM desde el primer día.",
       "highlights": ["Liderazgo de Proyectos", "Desarrollo de Proyectos"]
     },
     {
@@ -42,7 +42,7 @@
       "position": "Freelancer - Desarrollador Web y Lider de Proyectos",
       "url": "https://www.facebook.com/servicentrowillyhn",
       "startDate": "2024-07-01",
-      "endDate": null,
+      "endDate": "2024-12-31",
       "summary": "Actualmente me encuentro trabajando en variados paquetes de mejoras en el sistema de clientes internos de Servicentro Willy. He liderado el desarrollo de Proyectos para Usuarios Internos de la Empresa. He trabajado con tecnologías como Angular, NestJS, PostgreSQL.",
       "highlights": ["Freelancer"]
     }
@@ -52,12 +52,12 @@
     {
       "institution": "Ceutec - Universidad Tecnológica de Honduras",
       "url": "https://ceutec.hn/",
-      "area": "Ingeniero en Sistemas",
+      "area": "Pasante - Ingeniería en Sistemas",
       "studyType": "Ingeniería",
       "startDate": "2021-01-01",
       "endDate": null,
       "score": "5.0",
-      "courses": ["C++", "Java", "PHP", "MySQL"]
+      "courses": ["C#", "Java", "PHP", "MySQL", "SQL Server"]
     }
   ],
   "awards": [],
@@ -85,10 +85,26 @@
       "date": "2023-07-08",
       "issuer": "Udemy Business",
       "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-f99765ea-1d0b-4210-9dda-303f7fb840e2.jpg?v=1688828179000"
+    },
+    {
+      "name": "Muchos más cursos...",
+      "date": "Actualmente",
+      "issuer": "Udemy Business",
+      "url": "https://allasrepuestos.udemy.com/user/milton-alejandro-barrientos-hernandez/"
     }
   ],
   "publications": [],
   "skills": [
+    {
+      "name": "C#",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo de Aplicaciones de Escritorio",
+        "APIs",
+        "Servicios"
+      ],
+      "image": "/skills-logos/csharp.webp"
+    },
     {
       "name": "Angular",
       "level": "Avanzado",
@@ -215,7 +231,10 @@
       "highlights": [
         "Trabajo en Equipo",
         "Desarrollo de Proyectos",
-        "Desarrollo FullStack"
+        "Desarrollo FullStack",
+        "NextJS",
+        "TailwindCSS",
+        "Desarrollo Web"
       ],
       "url": "https://www.palettewizard.me/"
     },
@@ -234,9 +253,23 @@
       "url": null
     },
     {
+      "name": "Allas Digitación",
+      "isActive": false,
+      "description": "Desarrollé módulos para un proyecto interno de Allas Repuestos. El proyecto tiene como objetivo manejar la lógica de negocios de la empresa, permitiendo a los usuarios internos de la empresa manejar la información de los productos y las tiendas de Allas Repuestos. El proyecto fue desarrollado con .NET Framework.",
+      "highlights": [
+        "Desarrollo en C#",
+        "Comprensión de Logística",
+        "Comprensión de Recursos Humanos",
+        "Comprensión de Contabilidad",
+        "PostgreSQL",
+        "Automatización de Procesos"
+      ],
+      "url": null
+    },
+    {
       "name": "Entre otros...",
       "isActive": false,
-      "description": "Actualmente llevo +30 proyectos en los que me he involucrado en la empresa.",
+      "description": "Actualmente llevo +20 proyectos en los que me he involucrado en la empresa.",
       "highlights": [],
       "url": null
     }
