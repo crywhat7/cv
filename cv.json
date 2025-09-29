@@ -207,12 +207,12 @@
   ],
   "references": [
     {
-      "name": "Alicia Flores",
-      "reference": "Desarrolladora de Software en Banco de Occidente - (+504 9756-4690)"
+      "name": "Helmut Padilla",
+      "reference": "Desarrollador de Software en Ficohsa - (+504 3344-3112)"
     },
     {
-      "name": "Ezequiel Garcia",
-      "reference": "Ejecutivo Contact Center SWAT  - (+504 9692-6055)"
+      "name": "Alicia Flores",
+      "reference": "Desarrolladora de Software en Banco de Occidente - (+504 9756-4690)"
     },
     {
       "name": "Keneth Cubas",
@@ -225,20 +225,22 @@
     {
       "name": "Heberth Elvir",
       "reference": "Gerente de Operaciones en COPECO - (+504 3329-2869)"
+    },
+    {
+      "name": "Ezequiel Garcia",
+      "reference": "Ejecutivo Contact Center SWAT - (+504 9692-6055)"
     }
   ],
   "projects": [
     {
       "name": "Allas Digitación",
       "isActive": false,
-      "description": "Desarrollé módulos para un proyecto interno de Allas Repuestos. El proyecto tiene como objetivo manejar la lógica de negocios de la empresa, permitiendo a los usuarios internos de la empresa manejar la información de los productos y las tiendas de Allas Repuestos. El proyecto fue desarrollado con .NET Framework.",
+      "description": "El proyecto fue desarrollado con .NET Framework. Desarrollé módulos para un proyecto interno de Allas Repuestos. El proyecto tiene como objetivo manejar la lógica de negocios de la empresa, permitiendo a los usuarios internos de la empresa manejar la información de los productos y las tiendas de Allas Repuestos.",
       "highlights": [
         "Desarrollo en C#",
+        ".NET Framework",
         "Comprensión de Logística",
-        "Comprensión de Recursos Humanos",
-        "Comprensión de Contabilidad",
-        "PostgreSQL",
-        "Automatización de Procesos"
+        "PostgreSQL"
       ],
       "url": null
     },
