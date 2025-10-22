@@ -31,7 +31,7 @@
     {
       "name": "Allas Repuestos",
       "position": "Desarrollador Jr → Desarrollador FullStack → Analista Desarrollador",
-      "url": "https://allas-new-page.netlify.app/",
+      "url": "https://www.allasrepuestos.com/",
       "startDate": "2022-05-05",
       "endDate": null,
       "summary": "Empecé como Desarrollador Trainee con nula Experiencia, con el tiempo (y muy rápido) fui escalando posiciones hasta llegar a Ingeniero de Software. He liderado el desarrollo de Proyectos para Usuarios Internos de la Empresa. He trabajado con tecnologías de escritorio como C#, .NET, tecnologías web como Angular, NodeJS, React y bases de datos como PostgreSQL y SQL Server, además de DatawareHouse, entre otras. Me he familiarizado con la metodología SCRUM desde el primer día.",
@@ -43,7 +43,7 @@
       "url": "https://www.facebook.com/servicentrowillyhn",
       "startDate": "2024-07-01",
       "endDate": "2024-12-31",
-      "summary": "Actualmente me encuentro trabajando en variados paquetes de mejoras en el sistema de clientes internos de Servicentro Willy. He liderado el desarrollo de Proyectos para Usuarios Internos de la Empresa. He trabajado con tecnologías como Angular, NestJS, PostgreSQL.",
+      "summary": "Actualmente me encuentro trabajando en varios paquetes de mejoras en el sistema de clientes internos de Servicentro Willy. He liderado el desarrollo de Proyectos para Usuarios Internos de la Empresa. He trabajado con tecnologías como Angular, NestJS, PostgreSQL.",
       "highlights": ["Freelancer"]
     }
   ],
@@ -208,11 +208,15 @@
   "references": [
     {
       "name": "Helmut Padilla",
-      "reference": "Desarrollador de Software en Ficohsa - (+504 3344-3112)"
+      "reference": "Desarrollador de Software en Banco Ficohsa - (+504 3344-3112)"
     },
     {
       "name": "Alicia Flores",
       "reference": "Desarrolladora de Software en Banco de Occidente - (+504 9756-4690)"
+    },
+    {
+      "name": "Heberth Elvir",
+      "reference": "Gerente de Operaciones en COPECO - (+504 3329-2869)"
     },
     {
       "name": "Keneth Cubas",
@@ -223,15 +227,41 @@
       "reference": "Ingeniero de Software en Allas Repuestos - (+504 3143-3099)"
     },
     {
-      "name": "Heberth Elvir",
-      "reference": "Gerente de Operaciones en COPECO - (+504 3329-2869)"
-    },
-    {
       "name": "Ezequiel Garcia",
       "reference": "Ejecutivo Contact Center SWAT - (+504 9692-6055)"
     }
   ],
   "projects": [
+    {
+      "name": "Página Web de Allas Repuestos",
+      "isActive": true,
+      "description": "Diseñé, Planifiqué y Desarrollé la página web de Allas Repuestos, haciendo mucho enfasis en el SEO y el diseño responsive, logrando que en el 85% de las búsquedas de repuestos por internet en Honduras, el sitio web aparezca en los primeros resultados de Google; desplegada en un EC2 de AWS, con un balanceador de carga para distribuir la carga entre los servidores y utilizando un sistema de cacheo para mejorar el rendimiento de la página web.",
+      "highlights": [
+        "Desarrollo FullStack",
+        "Angular",
+        "NodeJS",
+        "PostgreSQL",
+        "TailwindCSS",
+        "SEO",
+        "Diseño Responsive"
+      ],
+      "url": "https://www.allasrepuestos.com/"
+    },
+    {
+      "name": "Aplicación Móvil de Allas Repuestos",
+      "isActive": true,
+      "description": "Desarrollé una aplicación móvil para Allas Repuestos, utilizando Flutter, Dart y un API creada en NestJS, desplegada en un EC2 de AWS, con un balanceador de carga para distribuir la carga entre los servidores.",
+      "highlights": [
+        "Desarrollo FullStack",
+        "Flutter",
+        "Dart",
+        "NestJS",
+        "AWS",
+        "Balanceador de Carga",
+        "Desarrollo Móvil"
+      ],
+      "url": "https://apps.apple.com/hn/app/allas-repuestos-bater%C3%ADas/id6752626505?l=en-GB"
+    },
     {
       "name": "Allas Digitación",
       "isActive": false,
