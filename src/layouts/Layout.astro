@@ -1,25 +1,52 @@
 ---
 import { basics } from "../../cv.json";
 import MouseStyle from "../components/react/CanvasWithEraser";
+import Seo from "../components/Seo.astro";
+import { SITE } from "../consts";
 
 interface Props {
   title: string;
+  description?: string;
+  image?: string;
+  imageAlt?: string;
+  type?: "website" | "profile" | "article";
+  keywords?: string[];
+  noindex?: boolean;
+  schema?: unknown[];
+  article?: { section?: string; tags?: string[] };
+  /** Imagen que conviene precargar en esta página (LCP). */
+  preload?: string;
 }
 
-const { title } = Astro.props;
-
-const { image, summary } = basics;
+const {
+  title,
+  description = basics.summary,
+  image,
+  imageAlt,
+  type,
+  keywords,
+  noindex,
+  schema,
+  article,
+  preload,
+} = Astro.props;
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang={SITE.lang}>
   <head>
-    <meta charset="UTF-8" />
-    <title>{title}</title>
-    <meta name="description" content={summary} />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="preload" as="image" href={image} />
+    <Seo
+      title={title}
+      description={description}
+      image={image}
+      imageAlt={imageAlt}
+      type={type}
+      keywords={keywords}
+      noindex={noindex}
+      schema={schema}
+      article={article}
+    />
+    {preload && <link rel="preload" as="image" href={preload} />}
   </head>
   <body>
     <slot />

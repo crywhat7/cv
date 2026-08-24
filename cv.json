@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Milton Barrientos",
-    "label": "Ingeniero de Software con más de 3 años de experiencia",
+    "label": "Ingeniero de Software con más de 5 años de experiencia",
     "image": "/me.webp",
     "email": "miltonbarrientos2@gmail.com",
     "phone": "+504 8828-5038",
-    "url": "https://crywhat.site/",
-    "summary": "+3 años de experiencia como Ingeniero de Software trabajando en C#, .NET, Angular, React, PostgreSQL, SQLServer, Flutter y todo tipo de herramientas WEB. Actualmente trabajo en Allas Repuestos, liderando proyectos internos con un enfoque en aplicaciones de escritorio o aplicaciones web robustas y eficientes.",
+    "url": "https://milton-barrientos.netlify.app/",
+    "summary": "+5 años de experiencia como Analista Desarrollador trabajando en C#, .NET, Visual Basic, Angular, React, PostgreSQL, SQL Server, MySQL, Flutter y todo tipo de herramientas WEB. He liderado proyectos internos con un enfoque en aplicaciones de escritorio o aplicaciones web robustas y eficientes. También he trabajado en la creación de reportes para toma de decisiones con Looker Studio, PowerBI y procesos ETL.",
     "location": {
       "address": "https://maps.app.goo.gl/ZhXbcW6AKNwGrugKA",
       "postalCode": "11101",
@@ -29,22 +29,45 @@
   },
   "work": [
     {
+      "name": "Farmacias del Ahorro",
+      "position": "Desarrollador Backend",
+      "url": "https://www.farmaciasdelahorro.hn/",
+      "startDate": "2026-01-01",
+      "endDate": null,
+      "summary": "He trabajado como desarrollador backend multinacional en Farmacias del Ahorro, utilizando herramientas como .NET Standard y .NET Framework con el lenguaje Visual Basic y C#, también con bases de datos en SQL Server y MySQL.",
+      "highlights": [
+        "Desarrollo Backend",
+        ".NET Standard",
+        ".NET Framework",
+        "Visual Basic",
+        "C#",
+        "SQL Server",
+        "MySQL"
+      ]
+    },
+    {
       "name": "Allas Repuestos",
-      "position": "Desarrollador Jr → Desarrollador FullStack → Analista Desarrollador",
+      "position": "Analista Desarrollador",
       "url": "https://www.allasrepuestos.com/",
       "startDate": "2022-05-05",
-      "endDate": null,
-      "summary": "Empecé como Desarrollador Trainee con nula Experiencia, con el tiempo (y muy rápido) fui escalando posiciones hasta llegar a Ingeniero de Software. He liderado el desarrollo de Proyectos para Usuarios Internos de la Empresa. He trabajado con tecnologías de escritorio como C#, .NET, tecnologías web como Angular, NodeJS, React y bases de datos como PostgreSQL y SQL Server, además de DatawareHouse, entre otras. Me he familiarizado con la metodología SCRUM desde el primer día.",
-      "highlights": ["Liderazgo de Proyectos", "Desarrollo de Proyectos"]
+      "endDate": "2025-12-31",
+      "summary": "Empecé como Desarrollador Trainee con nula Experiencia, con el tiempo fui escalando posiciones hasta llegar a Ingeniero de Software. He liderado el desarrollo de Proyectos para Usuarios Internos de la Empresa. He trabajado con tecnologías de escritorio como C#, .NET, tecnologías web como Angular, NodeJS, React y bases de datos como PostgreSQL y SQL Server, además de DatawareHouse, entre otras. Me he familiarizado con la metodología SCRUM desde el primer día.",
+      "highlights": [
+        "Liderazgo de Proyectos",
+        "Desarrollo de Proyectos"
+      ]
     },
     {
       "name": "Servicentro Willy",
-      "position": "Freelancer - Analista Desarrollador y Lider de Proyectos",
+      "position": "Freelancer - Analista Desarrollador y Líder de Proyectos",
       "url": "https://www.facebook.com/servicentrowillyhn",
       "startDate": "2024-07-01",
       "endDate": "2024-12-31",
-      "summary": "Actualmente me encuentro trabajando en varios paquetes de mejoras en el sistema de clientes internos de Servicentro Willy. He liderado el desarrollo de Proyectos para Usuarios Internos de la Empresa. He trabajado con tecnologías como Angular, NestJS, PostgreSQL.",
-      "highlights": ["Freelancer"]
+      "summary": "Estuve trabajando en varios paquetes de mejoras en el sistema de clientes internos de Servicentro Willy. He liderado el desarrollo de Proyectos para Usuarios Internos de la Empresa. He trabajado con tecnologías como Angular, NestJS, PostgreSQL.",
+      "highlights": [
+        "Trabajo Secundario",
+        "Freelancer"
+      ]
     }
   ],
   "volunteer": [],
@@ -55,42 +78,222 @@
       "area": "Ingeniería en Sistemas",
       "studyType": "Ingeniería",
       "startDate": "2021-01-01",
-      "endDate": "2026-12-31",
+      "endDate": "2027-12-31",
       "score": "5.0",
-      "courses": ["C#", "Java", "PHP", "MySQL", "SQL Server"]
+      "courses": [
+        "C#",
+        "Java",
+        "PHP",
+        "MySQL",
+        "SQL Server"
+      ]
     }
   ],
   "awards": [],
+  "certificatesUrl": "https://docs.google.com/spreadsheets/d/1w0rG0LWsykRfGB8NvG2x8P7oYHonoapNyc6iUw9Kyy8/edit?gid=1427216224#gid=1427216224",
   "certificates": [
     {
       "name": "Complete C# Masterclass",
-      "date": "2023-11-13",
+      "category": "Lenguajes y Lógica de Programación",
       "issuer": "Udemy Business",
-      "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-111c9a87-090f-4c78-8e06-c514c26213db.jpg?v=1699892909000"
+      "featured": true,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-111c9a87-090f-4c78-8e06-c514c26213db.pdf"
     },
     {
-      "name": "Learn SQL Using PostgreSQL: From Zero to Hero",
-      "date": "2022-09-20",
+      "name": "Angular - The Complete Guide (2025 Edition)",
+      "category": "Lenguajes y Lógica de Programación",
       "issuer": "Udemy Business",
-      "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-148665fb-db08-4a3e-b711-b26f3fa4264c.jpg?v=1663729227000"
-    },
-    {
-      "name": "Angular - The Complete Guide (2024 Edition)",
-      "date": "2023-03-01",
-      "issuer": "Udemy Business",
-      "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-3f6dde7d-fbe3-48b7-bba3-dc19a45ff74c.jpg?v=1677678612000"
+      "featured": true,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-3f6dde7d-fbe3-48b7-bba3-dc19a45ff74c.pdf"
     },
     {
       "name": "NestJS: The Complete Developer's Guide",
-      "date": "2023-07-08",
+      "category": "Lenguajes y Lógica de Programación",
       "issuer": "Udemy Business",
-      "url": "https://udemy-certificate.s3.amazonaws.com/image/UC-f99765ea-1d0b-4210-9dda-303f7fb840e2.jpg?v=1688828179000"
+      "featured": true,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-f99765ea-1d0b-4210-9dda-303f7fb840e2.pdf"
     },
     {
-      "name": "Muchos más cursos...",
-      "date": "Actualmente",
+      "name": "Learn SQL Using PostgreSQL: From Zero to Hero",
+      "category": "Motores de Bases de Datos",
       "issuer": "Udemy Business",
-      "url": "https://allasrepuestos.udemy.com/user/milton-alejandro-barrientos-hernandez/"
+      "featured": true,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-148665fb-db08-4a3e-b711-b26f3fa4264c.pdf"
+    },
+    {
+      "name": "TypeScript Design Patterns And SOLID Principles",
+      "category": "Lenguajes y Lógica de Programación",
+      "issuer": "Udemy Business",
+      "featured": true,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-9d90fb9e-64b9-44f9-974f-19508b5b2daf.pdf"
+    },
+    {
+      "name": "Understanding TypeScript",
+      "category": "Lenguajes y Lógica de Programación",
+      "issuer": "Udemy Business",
+      "featured": true,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-914531bb-818a-4361-a179-f13ad8cbea13.pdf"
+    },
+    {
+      "name": "Node.js, Express, MongoDB & More: The Complete Bootcamp",
+      "category": "Lenguajes y Lógica de Programación",
+      "issuer": "Udemy Business",
+      "featured": true,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-b02a2fa0-4ff6-4116-b936-f15ee27556e2.pdf"
+    },
+    {
+      "name": "Flutter & Dart - The Complete Guide [2025 Edition]",
+      "category": "Lenguajes y Lógica de Programación",
+      "issuer": "Udemy Business",
+      "featured": true,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-ef95d7c8-8100-4862-9409-7254313dec45.pdf"
+    },
+    {
+      "name": "Data Warehouse Fundamentals for Beginners",
+      "category": "Datawarehouse",
+      "issuer": "Udemy Business",
+      "featured": true,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-db6a9202-aa4a-4784-b73a-8ddb5b751a0d.pdf"
+    },
+    {
+      "name": "Complete Introduction to Looker Studio (Google Data Studio)",
+      "category": "Datawarehouse",
+      "issuer": "Udemy Business",
+      "featured": true,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-e3d98459-ef47-4087-9363-9e36ba690ba1.pdf"
+    },
+    {
+      "name": "NgRx (with NgRx Data) - The Complete Guide (Angular 19)",
+      "category": "Lenguajes y Lógica de Programación",
+      "issuer": "Udemy Business",
+      "featured": false,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-a9c62434-11e9-41cb-91ac-ec5eea7cd8e6.pdf"
+    },
+    {
+      "name": "Modern JavaScript (Complete guide, from Novice to Ninja)",
+      "category": "Lenguajes y Lógica de Programación",
+      "issuer": "Udemy Business",
+      "featured": false,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-07e32514-6598-444c-bfc6-c4c096c8d03b.pdf"
+    },
+    {
+      "name": "The Coding Interview Bootcamp: Algorithms + Data Structures",
+      "category": "Lenguajes y Lógica de Programación",
+      "issuer": "Udemy Business",
+      "featured": false,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-ea304537-e335-4082-9586-89216a804fd1.pdf"
+    },
+    {
+      "name": "Ionic - Build iOS, Android & Web Apps with Ionic & Angular",
+      "category": "Lenguajes y Lógica de Programación",
+      "issuer": "Udemy Business",
+      "featured": false,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-101fe5de-59c2-4e20-b64b-453ea152a140.pdf"
+    },
+    {
+      "name": "Spring Security Fundamentals (OAuth, JWT, CSRF and more)",
+      "category": "Lenguajes y Lógica de Programación",
+      "issuer": "Udemy Business",
+      "featured": false,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-e744e89b-4fd3-4847-8c28-45f7580dd91c.pdf"
+    },
+    {
+      "name": "The Complete Android 14 & Kotlin Development Masterclass",
+      "category": "Lenguajes y Lógica de Programación",
+      "issuer": "Udemy Business",
+      "featured": false,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-b29f2b56-6012-4f15-996d-c93fe4098b37.pdf"
+    },
+    {
+      "name": "The Git & Github Bootcamp",
+      "category": "Gestor de Versiones",
+      "issuer": "Udemy Business",
+      "featured": false,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-29567540-633a-44cd-a76a-fbf344ea05fc.pdf"
+    },
+    {
+      "name": "Agile Fundamentals: Including Scrum & Kanban",
+      "category": "Metodologías",
+      "issuer": "Udemy Business",
+      "featured": false,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-a869a36d-528d-496b-85e4-d5e60e15c0ff.pdf"
+    },
+    {
+      "name": "Learn Jira with real-world examples 2024 (+Confluence bonus)",
+      "category": "Metodologías",
+      "issuer": "Udemy Business",
+      "featured": false,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-3364eeaf-b252-49ee-a39f-fe8d2121e09d.pdf"
+    },
+    {
+      "name": "Jira Advanced 2025 | Manage & Administer Jira Like a Pro",
+      "category": "Metodologías",
+      "issuer": "Udemy Business",
+      "featured": false,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-ff2fba38-9c9b-49b9-974f-4392724ec6a3.pdf"
+    },
+    {
+      "name": "MasterClass Software Testing with Jira & Agile - Be a QA Lead",
+      "category": "Metodologías",
+      "issuer": "Udemy Business",
+      "featured": false,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-abcb8571-c2a6-4052-8e66-396ddd01cb2f.pdf"
+    },
+    {
+      "name": "PL/SQL by Example - Beginner to Advanced PL/SQL",
+      "category": "Datawarehouse",
+      "issuer": "Udemy Business",
+      "featured": false,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-58d9772b-906d-4633-8fe1-28e03bd1c2f3.pdf"
+    },
+    {
+      "name": "Node JS Cluster with PM2, RabbitMQ, Redis and Nginx",
+      "category": "Servidores",
+      "issuer": "Udemy Business",
+      "featured": false,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-0f6fb223-7b93-45c2-a2a1-4044171d1ed0.pdf"
+    },
+    {
+      "name": "Complete Linux Bootcamp for Beginners",
+      "category": "Servidores",
+      "issuer": "Udemy Business",
+      "featured": false,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-3b8c862c-17d2-49b6-aacf-d4ca046ce9ef.pdf"
+    },
+    {
+      "name": "Linux for Beginners",
+      "category": "Servidores",
+      "issuer": "Udemy Business",
+      "featured": false,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-f8516e52-a1ac-4020-aa12-b132727d607d.pdf"
+    },
+    {
+      "name": "Windows Server 2019 Administration",
+      "category": "Servidores",
+      "issuer": "Udemy Business",
+      "featured": false,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-238dcea9-bc1e-4534-954b-2c47474bcd5c.pdf"
+    },
+    {
+      "name": "Complete VMWare vSphere ESXi and vCenter Administration",
+      "category": "Servidores",
+      "issuer": "Udemy Business",
+      "featured": false,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-ab195376-8fa8-4960-8453-9357f1b31da8.pdf"
+    },
+    {
+      "name": "User Experience Design Essentials - Adobe XD UI UX Design",
+      "category": "Diseño",
+      "issuer": "Udemy Business",
+      "featured": false,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-6656bf9a-3b40-4a6f-963a-f42071497c79.pdf"
+    },
+    {
+      "name": "Figma UI UX Design Advanced",
+      "category": "Diseño",
+      "issuer": "Udemy Business",
+      "featured": false,
+      "url": "https://udemy-certificate.s3.amazonaws.com/pdf/UC-d9851e4b-a61b-4734-a484-f013bcf03ac4.pdf"
     }
   ],
   "publications": [],
@@ -106,9 +309,24 @@
       "image": "/skills-logos/csharp.webp"
     },
     {
+      "name": "Visual Basic",
+      "level": "Avanzado",
+      "keywords": [
+        ".NET Framework",
+        ".NET Standard",
+        "Backend",
+        "Legacy"
+      ],
+      "image": "/skills-logos/visual-basic.webp"
+    },
+    {
       "name": "Angular",
       "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Frontend", "UI"],
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "UI"
+      ],
       "image": "/skills-logos/angular.webp"
     },
     {
@@ -120,7 +338,12 @@
     {
       "name": "NodeJS",
       "level": "Avanzado",
-      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"],
+      "keywords": [
+        "Desarrollo Web",
+        "Backend",
+        "JavaScript",
+        "Servidor"
+      ],
       "image": "/skills-logos/nodejs.webp"
     },
     {
@@ -133,6 +356,27 @@
         "Backend"
       ],
       "image": "/skills-logos/postgresql.webp"
+    },
+    {
+      "name": "SQL Server",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "T-SQL",
+        "Procedimientos Almacenados",
+        "Backend"
+      ],
+      "image": "/skills-logos/sql-server.webp"
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermedio",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Backend"
+      ],
+      "image": "/skills-logos/my-sql.webp"
     },
     {
       "name": "Tailwind",
@@ -159,7 +403,11 @@
     {
       "name": "Git",
       "level": "Avanzado",
-      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"],
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente"
+      ],
       "image": "/skills-logos/git.webp"
     },
     {
@@ -207,8 +455,16 @@
   ],
   "references": [
     {
+      "name": "Carlos Sandoval",
+      "reference": "CEO de Allas Repuestos - (+504 9945-8514)"
+    },
+    {
       "name": "Helmut Padilla",
       "reference": "Desarrollador de Software en Banco Ficohsa - (+504 3344-3112)"
+    },
+    {
+      "name": "Keneth Cubas",
+      "reference": "Ingeniero de Software en Banco Atlántida - (+504 9561-9511)"
     },
     {
       "name": "Alicia Flores",
@@ -217,25 +473,23 @@
     {
       "name": "Heberth Elvir",
       "reference": "Gerente de Operaciones en COPECO - (+504 3329-2869)"
-    },
-    {
-      "name": "Keneth Cubas",
-      "reference": "Ingeniero de Software en Allas Repuestos - (+504 9561-9511)"
-    },
-    {
-      "name": "Fernando Quintanilla",
-      "reference": "Ingeniero de Software en Allas Repuestos - (+504 3143-3099)"
-    },
-    {
-      "name": "Ezequiel Garcia",
-      "reference": "Ejecutivo Contact Center SWAT - (+504 9692-6055)"
     }
   ],
   "projects": [
     {
+      "id": "allas-repuestos-web",
       "name": "Página Web de Allas Repuestos",
       "isActive": true,
-      "description": "Diseñé, Planifiqué y Desarrollé la página web de Allas Repuestos, haciendo mucho enfasis en el SEO y el diseño responsive, logrando que en el 85% de las búsquedas de repuestos por internet en Honduras, el sitio web aparezca en los primeros resultados de Google; desplegada en un EC2 de AWS, con un balanceador de carga para distribuir la carga entre los servidores y utilizando un sistema de cacheo para mejorar el rendimiento de la página web.",
+      "role": "Diseño, planificación y desarrollo FullStack",
+      "period": "2023 - 2025",
+      "applicationCategory": "BusinessApplication",
+      "description": "Diseñé, Planifiqué y Desarrollé la página web de Allas Repuestos, haciendo mucho énfasis en el SEO y el diseño responsive, logrando que en el 85% de las búsquedas de repuestos por internet en Honduras, el sitio web aparezca en los primeros resultados de Google; desplegada en un EC2 de AWS, con un balanceador de carga para distribuir la carga entre los servidores y utilizando un sistema de cacheo para mejorar el rendimiento de la página web.",
+      "longDescription": [
+        "Diseñé, planifiqué y desarrollé de punta a punta el e-commerce de Allas Repuestos, la principal cadena de repuestos y baterías de Honduras. El proyecto abarcó desde el wireframing y la definición de la arquitectura hasta el despliegue y monitoreo en producción.",
+        "El foco principal estuvo en el SEO técnico y de contenido: renderizado optimizado, metadatos dinámicos por producto y categoría, sitemaps generados automáticamente y datos estructurados. El resultado fue que en cerca del 85% de las búsquedas de repuestos por internet en Honduras el sitio aparece en los primeros resultados de Google.",
+        "La infraestructura vive en AWS sobre instancias EC2 detrás de un balanceador de carga que distribuye el tráfico entre servidores, con un sistema de cacheo que redujo notablemente los tiempos de respuesta y el costo por consulta a la base de datos.",
+        "Todo el frontend se construyó con Angular y TailwindCSS con un enfoque mobile-first, mientras que el backend en NodeJS expone la API que consume tanto la web como la aplicación móvil."
+      ],
       "highlights": [
         "Desarrollo FullStack",
         "Angular",
@@ -244,6 +498,40 @@
         "TailwindCSS",
         "SEO",
         "Diseño Responsive"
+      ],
+      "skills": [
+        {
+          "name": "Angular",
+          "image": "/skills-logos/angular.webp"
+        },
+        {
+          "name": "TypeScript",
+          "image": "/skills-logos/ts.webp"
+        },
+        {
+          "name": "NodeJS",
+          "image": "/skills-logos/nodejs.webp"
+        },
+        {
+          "name": "PostgreSQL",
+          "image": "/skills-logos/postgresql.webp"
+        },
+        {
+          "name": "TailwindCSS",
+          "image": "/skills-logos/tailwind.webp"
+        },
+        {
+          "name": "AWS EC2",
+          "image": null
+        },
+        {
+          "name": "Balanceo de Carga",
+          "image": null
+        },
+        {
+          "name": "SEO Técnico",
+          "image": null
+        }
       ],
       "url": "https://www.allasrepuestos.com/"
     },
@@ -263,6 +551,183 @@
       "url": "https://apps.apple.com/hn/app/allas-repuestos-bater%C3%ADas/id6752626505?l=en-GB"
     },
     {
+      "id": "wake-health",
+      "name": "Wake Health",
+      "isActive": true,
+      "role": "Desarrollo FullStack y arquitectura",
+      "period": "2026 - Actualidad",
+      "applicationCategory": "HealthApplication",
+      "description": "ERP completo para clínicas: Pacientes, Citas, Preclínica, Consulta, Facturación adaptada al SAR, Gastos, Laboratorio y Farmacia. Nació como sistema a la medida para un cliente y hoy funciona como un SAAS con pasarela de pagos, desarrollado con NextJS y PostgreSQL.",
+      "longDescription": [
+        "Wake Health es un ERP para clínicas que he estado desarrollando durante 2026. Cubre el ciclo completo de atención con módulos de Pacientes, Citas, Preclínica, Consulta, Facturación, Gastos, Laboratorio y Farmacia.",
+        "La facturación está adaptada a los requisitos del Servicio de Administración de Rentas (SAR) de Honduras, incluyendo el manejo de CAI, rangos autorizados y correlativos por punto de emisión.",
+        "Aunque lo construí como un sistema personalizado para un cliente en específico, desde el primer día lo pensé para escalar a un SAAS multi-clínica, que es como opera actualmente, con pasarela de pagos integrada para las suscripciones.",
+        "Además del producto, desarrollé el sitio web comercial siguiendo todos los estándares de SEO para que la solución se encuentre fácilmente en internet."
+      ],
+      "highlights": [
+        "Desarrollo FullStack",
+        "NextJS",
+        "PostgreSQL",
+        "SAAS",
+        "Pasarela de Pagos",
+        "Facturación SAR",
+        "SEO"
+      ],
+      "skills": [
+        {
+          "name": "NextJS",
+          "image": "/skills-logos/next-js.svg"
+        },
+        {
+          "name": "React",
+          "image": "/skills-logos/react.webp"
+        },
+        {
+          "name": "TypeScript",
+          "image": "/skills-logos/ts.webp"
+        },
+        {
+          "name": "PostgreSQL",
+          "image": "/skills-logos/postgresql.webp"
+        },
+        {
+          "name": "TailwindCSS",
+          "image": "/skills-logos/tailwind.webp"
+        },
+        {
+          "name": "Pasarela de Pagos",
+          "image": null
+        },
+        {
+          "name": "Arquitectura Multi-tenant",
+          "image": null
+        },
+        {
+          "name": "SEO",
+          "image": null
+        }
+      ],
+      "url": "https://wakehealth.vercel.app/",
+      "links": [
+        {
+          "label": "Aplicación",
+          "url": "https://wakehealth.vercel.app/"
+        },
+        {
+          "label": "Sitio web",
+          "url": "https://www.wake.solutions"
+        }
+      ]
+    },
+    {
+      "id": "memorder",
+      "name": "Memorder",
+      "isActive": true,
+      "role": "Desarrollo FullStack",
+      "period": "Proyecto personal",
+      "applicationCategory": "GameApplication",
+      "description": "Juego web de memoria en el que hay que recordar el orden de las palabras presentadas. Cuenta con autenticación con Google y un ranking en vivo, construido con NextJS y Supabase sobre PostgreSQL.",
+      "longDescription": [
+        "Memorder es un juego web que desarrollé por gusto: el reto consiste en recordar el orden exacto en el que se presentan una serie de palabras, aumentando la dificultad ronda tras ronda.",
+        "Incorpora autenticación con Google, de modo que cada jugador conserva su historial de partidas y su mejor puntuación sin fricción de registro.",
+        "El ranking se actualiza en vivo usando las suscripciones en tiempo real de Supabase, así que los jugadores ven cómo cambian las posiciones mientras juegan.",
+        "El stack es NextJS en el frontend y Supabase (PostgreSQL) como base de datos y capa de autenticación."
+      ],
+      "highlights": [
+        "Desarrollo FullStack",
+        "NextJS",
+        "Supabase",
+        "PostgreSQL",
+        "Tiempo Real",
+        "Autenticación con Google"
+      ],
+      "skills": [
+        {
+          "name": "NextJS",
+          "image": "/skills-logos/next-js.svg"
+        },
+        {
+          "name": "React",
+          "image": "/skills-logos/react.webp"
+        },
+        {
+          "name": "TypeScript",
+          "image": "/skills-logos/ts.webp"
+        },
+        {
+          "name": "TailwindCSS",
+          "image": "/skills-logos/tailwind.webp"
+        },
+        {
+          "name": "Supabase",
+          "image": null
+        },
+        {
+          "name": "PostgreSQL",
+          "image": "/skills-logos/postgresql.webp"
+        },
+        {
+          "name": "Realtime",
+          "image": null
+        },
+        {
+          "name": "OAuth con Google",
+          "image": null
+        }
+      ],
+      "url": "https://memorder.vercel.app/"
+    },
+    {
+      "id": "palette-wizard",
+      "name": "Palette Wizard",
+      "isActive": true,
+      "role": "Desarrollo FullStack en equipo",
+      "period": "Proyecto personal",
+      "applicationCategory": "DesignApplication",
+      "description": "Proyecto personal con amigos, una aplicación web que permite a los usuarios buscar paletas de colores y copiarlas para TailwindCSS. La aplicación fue desarrollada con NextJS con TailwindCSS.",
+      "longDescription": [
+        "Palette Wizard nació como un proyecto personal junto a un grupo de amigos desarrolladores, con la idea de resolver algo que nos pasaba a diario: perder tiempo armando paletas de colores coherentes para nuevos proyectos.",
+        "La aplicación permite explorar y buscar paletas de colores y copiarlas directamente en el formato de configuración de TailwindCSS, listas para pegar en el proyecto.",
+        "Trabajamos en equipo con control de versiones y revisiones de código, repartiendo frontend, diseño y lógica de generación de paletas.",
+        "Está construida con NextJS y TailwindCSS, con foco en una interfaz rápida y en que copiar una paleta tome un solo clic."
+      ],
+      "highlights": [
+        "Trabajo en Equipo",
+        "Desarrollo de Proyectos",
+        "Desarrollo FullStack",
+        "NextJS",
+        "TailwindCSS",
+        "Desarrollo Web"
+      ],
+      "skills": [
+        {
+          "name": "NextJS",
+          "image": "/skills-logos/next-js.svg"
+        },
+        {
+          "name": "React",
+          "image": "/skills-logos/react.webp"
+        },
+        {
+          "name": "TypeScript",
+          "image": "/skills-logos/ts.webp"
+        },
+        {
+          "name": "TailwindCSS",
+          "image": "/skills-logos/tailwind.webp"
+        },
+        {
+          "name": "Git",
+          "image": "/skills-logos/git.webp"
+        },
+        {
+          "name": "Trabajo en Equipo",
+          "image": null
+        }
+      ],
+      "url": "https://www.palettewizard.me/"
+    },
+    {
       "name": "Allas Digitación",
       "isActive": false,
       "description": "El proyecto fue desarrollado con .NET Framework. Desarrollé módulos para un proyecto interno de Allas Repuestos. El proyecto tiene como objetivo manejar la lógica de negocios de la empresa, permitiendo a los usuarios internos de la empresa manejar la información de los productos y las tiendas de Allas Repuestos.",
@@ -273,20 +738,6 @@
         "PostgreSQL"
       ],
       "url": null
-    },
-    {
-      "name": "Palette Wizard",
-      "isActive": true,
-      "description": "Proyecto personal con amigos, una aplicación web que permite a los usuarios buscar paletas de colores y copiarlas para TailwindCSS. La aplicación fue desarrollada con NextJS con TailwindCSS.",
-      "highlights": [
-        "Trabajo en Equipo",
-        "Desarrollo de Proyectos",
-        "Desarrollo FullStack",
-        "NextJS",
-        "TailwindCSS",
-        "Desarrollo Web"
-      ],
-      "url": "https://www.palettewizard.me/"
     },
     {
       "name": "Alumni UPNFM",

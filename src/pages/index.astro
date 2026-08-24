@@ -12,10 +12,31 @@ import KeyboardManager from "../components/KeyboardManager.astro";
 import { basics } from "../../cv.json";
 import References from "../components/sections/References.astro";
 import Certificates from "../components/sections/Certificates.astro";
-const { name, label } = basics;
+import {
+  personSchema,
+  websiteSchema,
+  profilePageSchema,
+  projectCollectionSchema,
+} from "../schema";
+
+const { name, label, summary } = basics;
+
+const title = `${name} — ${label}`;
 ---
 
-<Layout title={`Portafolio de ${name} - ${label}`}>
+<Layout
+  title={title}
+  description={summary}
+  type="profile"
+  imageAlt={`${name}, ${label}`}
+  preload={basics.image}
+  schema={[
+    personSchema(),
+    websiteSchema(),
+    profilePageSchema(),
+    projectCollectionSchema(),
+  ]}
+>
   <main class="m-auto w-full p-4 md:p-16">
     <Hero />
     <About />

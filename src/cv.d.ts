@@ -4,6 +4,7 @@ export interface CV {
   volunter: Array<Volunter>;
   education: Array<Education>;
   awards: Array<Awards>;
+  certificatesUrl: string;
   certificates: Array<Certificates>;
   publications: Array<Publications>;
   skills: Array<Skills>;
@@ -77,8 +78,9 @@ interface Awards {
 
 interface Certificates {
   name: string;
-  date: DateStr;
+  category: string;
   issuer: string;
+  featured: boolean;
   url: string;
 }
 
@@ -125,12 +127,31 @@ type Language =
   | string;
 
 interface Projects {
+  /** Identificador usado para la página de detalle y las capturas: `/proyectos/{id}` y `/projects-screenshots/{id}-01.webp` */
+  id?: string;
   name: string;
   isActive: boolean;
+  role?: string;
+  period?: string;
+  /** Valor de schema.org usado en los datos estructurados de la página de detalle. */
+  applicationCategory?: string;
   description: string;
+  longDescription?: Array<string>;
   highlights: Highlight;
-  url: string;
+  skills?: Array<ProjectSkill>;
+  url: string | null;
+  links?: Array<ProjectLink>;
   github?: string;
+}
+
+interface ProjectSkill {
+  name: string;
+  image: string | null;
+}
+
+interface ProjectLink {
+  label: string;
+  url: string;
 }
 
 interface Interests {

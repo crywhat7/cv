@@ -2,16 +2,14 @@
 import Section from "../Section.astro";
 
 import { education } from "../../../cv.json";
+import { getYear } from "../../consts";
 ---
 
 <Section title="Educación">
   <ul class="flex flex-col gap-8">
     {
       education.map(({ institution, startDate, endDate, area, url }) => {
-        const startYear = new Date(startDate).getFullYear();
-        const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Actual";
-        const years = `${startYear} - ${endYear}`;
+        const years = `${getYear(startDate)} - ${getYear(endDate)}`;
 
         return (
           <li>
