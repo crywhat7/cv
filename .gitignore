@@ -27,7 +27,6 @@ pnpm-debug.log*
 .vscode/
 
 # node
-package-lock.json
 yarn.lock
 pnpm-lock.yaml
 
